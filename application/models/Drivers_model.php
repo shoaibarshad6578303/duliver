@@ -34,11 +34,31 @@ class Drivers_model extends App_Model
         }
     }
 
-    public function save_drivers($authdate, $driversdata){
-        $this->db->insert(db_prefix() . 'drivers', $driversdata);
-        $this->db->insert(db_prefix() . 'contacts', $authdate);
+    public function getEmployees(){
 
-        return ;
+        $row = $this->db->select("id,employee_code,first_name,last_name,middle_name,phone_number")->where('employee_code !=','')->order_by('id',"ASC")->get(db_prefix() . 'employees');
+        return $row->result();
+    }
+
+    public function get_generated_id()
+    {
+        $this->db->select('driver_code')->from(db_prefix() . 'drivers')->where('driver_code !=','')->order_by("id", "desc")->limit(1);
+        // $row = $this->db->select("employee_code")->where('employee_code !=','')->limit(1)->order_by('id',"ASC")->get(db_prefix() . 'employees')->row();
+        $query = $this->db->get();
+
+        return $query->result_array();
+        
+    }
+
+    public function save_drivers($authdate, $driversdata)
+    {
+       
+      
+        $this->db->insert(db_prefix() . 'drivers', $driversdata);
+        $userid = $this->db->insert_id();
+        $authdate   ['userid'] = $userid;
+        $this->db->insert(db_prefix() . 'contacts', $authdate);
+        return;
     }
 
 
@@ -51,15 +71,58 @@ class Drivers_model extends App_Model
         $this->db->where('id', $id);
         $this->db->update(db_prefix().'drivers', $driverdata);
 
+        $authdata = array(
+            'deleted'=>0
+        );
+
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix().'contacts', $authdata );
         return;
 
     }
+
+    public function get_user($user_id)
+    {
+        $this->db->select('*')->from(db_prefix() . 'contacts')->where("userid", $user_id);
+        
+        $query = $this->db->get();
+
+       
+
+        return $query->result_array();
+        
+    }
+
+    public function update_drivers($authdate, $driversdata){
+
+        $id=$driversdata['id'];
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix().'drivers', $driversdata);
+
+        $this->db->where('userid', $id);
+        $this->db->update(db_prefix().'contacts', $authdate);
+        return;
+         
+    }
+
+    // public function edit_drivers($id)
+    // {
+    //     $this->db->select('*');
+    //     $this->db->where('id',$id);
+    //    return $this->db->get(db_prefix().'drivers');
+    // }
 
     public function edit_drivers($id)
     {
         $this->db->select('*');
         $this->db->where('id',$id);
-       return $this->db->get(db_prefix().'drivers');
+        $driver=$this->db->get(db_prefix().'drivers');
+        // print_r($driver);
+        // exit;
+    //    if ($driver->num_rows() > 0) {
+
+        return $driver->result_array();
+    //   }
     }
 
     

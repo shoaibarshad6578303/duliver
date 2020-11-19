@@ -26,7 +26,7 @@
                ),
                 array(
                  'name'=>_l('Fullname'),
-                 'th_attrs'=>array('class'=>'toggleable', 'id'=>'th-phone')
+                 'th_attrs'=>array('class'=>'toggleable', 'id'=>'th-name')
                ),
                 array(
                  'name'=>_l('Mobile'),

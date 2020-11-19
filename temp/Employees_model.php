@@ -77,7 +77,6 @@ class Employees_model extends App_Model
         else
         {
             $this->db->insert(db_prefix() . 'employees', $employeedata);
-            $authdate['userid'] = $this->db->insert_id();
             $this->db->insert(db_prefix() . 'contacts', $authdate);    
         }
         

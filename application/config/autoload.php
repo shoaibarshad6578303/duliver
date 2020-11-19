@@ -66,6 +66,7 @@ $autoload['libraries'] = [
     'encryption',
     'app',
     'gateways/app_gateway',
+    'form_validation',
     'email', // As last because it's using get_option via $this->app library
 ];
 

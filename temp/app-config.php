@@ -17,7 +17,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 * environments.
 *
 */
-define('APP_BASE_URL', 'http://127.0.0.1/duliver/');
+define('APP_BASE_URL', 'http://duliverdev.bitsclan.com/');
 
 /*
 * --------------------------------------------------------------------------
@@ -38,19 +38,19 @@ define('APP_ENC_KEY', '7d4ae0065c8e062d88f056ef51982738');
  * Database Credentials
  * The hostname of your database server
  */
-define('APP_DB_HOSTNAME', 'localhost');
+define('APP_DB_HOSTNAME', 'shareddb-b.hosting.stackcp.net');
 /**
  * The username used to connect to the database
  */
-define('APP_DB_USERNAME', 'root');
+define('APP_DB_USERNAME', 'duliverdevdb-35339a38');
 /**
  * The password used to connect to the database
  */
-define('APP_DB_PASSWORD', '');
+define('APP_DB_PASSWORD', 'lt6w9jx605');
 /**
  * The name of the database you want to connect to
  */
-define('APP_DB_NAME', 'duliverdevdb');
+define('APP_DB_NAME', 'duliverdevdb-35339a38');
 
 /**
  * @since  2.3.0

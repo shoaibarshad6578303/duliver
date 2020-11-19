@@ -85,10 +85,10 @@ if (defined('APP_DB_ENCRYPT')) {
 }
 $db['default'] = [
     'dsn'          => '', // Not Supported
-    'hostname' => 'localhost',
-	'username' => 'root',
-	'password' => '',
-	'database' => 'duliverdevdb',
+    'hostname' => 'shareddb-b.hosting.stackcp.net',
+	'username' => 'duliverdevdb-35339a38',
+	'password' => 'lt6w9jx605',
+	'database' => 'duliverdevdb-35339a38',
     'dbdriver'     => defined('APP_DB_DRIVER') ? APP_DB_DRIVER : 'mysqli',
     'dbprefix'     => db_prefix(),
     'pconnect'     => false,

@@ -5,7 +5,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 $this->ci->db->query("SET sql_mode = ''");
 
 $aColumns = [
-   
+    
     db_prefix().'drivers.id as id',
     'name',
     'driver_code',
@@ -14,7 +14,6 @@ $aColumns = [
     db_prefix().'drivers.name as username',
     db_prefix().'drivers.id as action',
     
-
 ];
 
 $sIndexColumn = 'id';
@@ -45,7 +44,9 @@ foreach ($rResult as $aRow) {
     $row[] = $aRow['phone'];
 
     $row[] = $aRow['username'];
-    $row[] = '<a class="btn btn-sm btn-primary" href="drivers/delete/' . $aRow['id'] . '"> Delete </a> <a class="btn btn-sm btn-success ml-1" href="drivers/edit/' . $aRow['id'] . '"> Edit </a>';
+
+    $row[] = '<a class="btn btn-sm btn-primary" href="drivers/delete/' . $aRow['id'] . '"> Delete </a>  <button type="button" data-student_id="'.$aRow['id'].'"  class="btn btn-success edit-driver" >Edit</button>';
+
     $output['aaData'][] = $row;
 }
 
