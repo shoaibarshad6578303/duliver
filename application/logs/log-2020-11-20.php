@@ -14946,3 +14946,829 @@ ERROR - 2020-11-20 19:44:41 --> Could not find the language line "Uploading Ship
 ERROR - 2020-11-20 19:44:41 --> Could not find the language line "Enable Bitsclan Theme for clients"
 ERROR - 2020-11-20 19:44:41 --> Could not find the language line "Place Order By Uploading"
 ERROR - 2020-11-20 15:44:41 --> 404 Page Not Found: admin/Shipment_details/custom.css
+ERROR - 2020-11-20 20:06:23 --> Could not find the language line "Admin"
+ERROR - 2020-11-20 20:06:27 --> Could not find the language line "Logout"
+ERROR - 2020-11-20 20:06:27 --> Could not find the language line "Human Resource"
+ERROR - 2020-11-20 20:06:27 --> Could not find the language line "Employees"
+ERROR - 2020-11-20 20:06:27 --> Could not find the language line "Drivers"
+ERROR - 2020-11-20 20:06:27 --> Could not find the language line "Add Employee"
+ERROR - 2020-11-20 20:06:27 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:06:27 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:06:27 --> Could not find the language line "Shipper Rate"
+ERROR - 2020-11-20 20:06:27 --> Could not find the language line "Add Shipper"
+ERROR - 2020-11-20 20:06:27 --> Could not find the language line "Shipment Details"
+ERROR - 2020-11-20 20:06:27 --> Could not find the language line "Tracking"
+ERROR - 2020-11-20 20:06:27 --> Could not find the language line "Place Order"
+ERROR - 2020-11-20 20:06:28 --> Could not find the language line "Operation Dashboard"
+ERROR - 2020-11-20 20:06:28 --> Could not find the language line "Update Status"
+ERROR - 2020-11-20 20:06:28 --> Could not find the language line "Edit Order"
+ERROR - 2020-11-20 20:06:28 --> Could not find the language line "Send Sms"
+ERROR - 2020-11-20 20:06:28 --> Could not find the language line "Uploading Shipments"
+ERROR - 2020-11-20 20:06:28 --> Could not find the language line "Enable Bitsclan Theme for clients"
+ERROR - 2020-11-20 20:06:28 --> Could not find the language line "Place Order By Uploading"
+ERROR - 2020-11-20 20:15:47 --> Could not find the language line "Admin"
+ERROR - 2020-11-20 20:15:48 --> Could not find the language line "Logout"
+ERROR - 2020-11-20 20:15:48 --> Could not find the language line "Human Resource"
+ERROR - 2020-11-20 20:15:48 --> Could not find the language line "Employees"
+ERROR - 2020-11-20 20:15:48 --> Could not find the language line "Drivers"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Add Employee"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Shipper Rate"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Add Shipper"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Shipment Details"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Tracking"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Place Order"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Operation Dashboard"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Update Status"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Edit Order"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Send Sms"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Uploading Shipments"
+ERROR - 2020-11-20 20:15:49 --> Could not find the language line "Enable Bitsclan Theme for clients"
+ERROR - 2020-11-20 20:15:50 --> Could not find the language line "Code"
+ERROR - 2020-11-20 20:15:50 --> Could not find the language line "Fullname"
+ERROR - 2020-11-20 20:15:50 --> Could not find the language line "Mobile"
+ERROR - 2020-11-20 20:15:50 --> Could not find the language line "Job Title"
+ERROR - 2020-11-20 20:15:50 --> Could not find the language line "Email"
+ERROR - 2020-11-20 20:15:50 --> Could not find the language line "Gender"
+ERROR - 2020-11-20 20:15:50 --> Could not find the language line "Address"
+ERROR - 2020-11-20 20:15:50 --> Could not find the language line "Action"
+ERROR - 2020-11-20 16:15:51 --> 404 Page Not Found: admin/Customcss/index
+ERROR - 2020-11-20 20:15:53 --> Could not find the language line "Admin"
+ERROR - 2020-11-20 20:15:53 --> Could not find the language line "Logout"
+ERROR - 2020-11-20 20:15:53 --> Could not find the language line "Human Resource"
+ERROR - 2020-11-20 20:15:53 --> Could not find the language line "Employees"
+ERROR - 2020-11-20 20:15:53 --> Could not find the language line "Drivers"
+ERROR - 2020-11-20 20:15:53 --> Could not find the language line "Add Employee"
+ERROR - 2020-11-20 20:15:53 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:15:53 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:15:53 --> Could not find the language line "Shipper Rate"
+ERROR - 2020-11-20 20:15:54 --> Could not find the language line "Add Shipper"
+ERROR - 2020-11-20 20:15:54 --> Could not find the language line "Shipment Details"
+ERROR - 2020-11-20 20:15:54 --> Could not find the language line "Tracking"
+ERROR - 2020-11-20 20:15:54 --> Could not find the language line "Place Order"
+ERROR - 2020-11-20 20:15:54 --> Could not find the language line "Operation Dashboard"
+ERROR - 2020-11-20 20:15:54 --> Could not find the language line "Update Status"
+ERROR - 2020-11-20 20:15:54 --> Could not find the language line "Edit Order"
+ERROR - 2020-11-20 20:15:54 --> Could not find the language line "Send Sms"
+ERROR - 2020-11-20 20:15:54 --> Could not find the language line "Uploading Shipments"
+ERROR - 2020-11-20 20:15:54 --> Could not find the language line "Enable Bitsclan Theme for clients"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Admin"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Logout"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Human Resource"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Employees"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Drivers"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Add Employee"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Shipper Rate"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Add Shipper"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Shipment Details"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Tracking"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Place Order"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Operation Dashboard"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Update Status"
+ERROR - 2020-11-20 20:16:05 --> Could not find the language line "Edit Order"
+ERROR - 2020-11-20 20:16:06 --> Could not find the language line "Send Sms"
+ERROR - 2020-11-20 20:16:06 --> Could not find the language line "Uploading Shipments"
+ERROR - 2020-11-20 20:16:06 --> Could not find the language line "Enable Bitsclan Theme for clients"
+ERROR - 2020-11-20 20:16:11 --> Could not find the language line "Admin"
+ERROR - 2020-11-20 20:16:11 --> Could not find the language line "Logout"
+ERROR - 2020-11-20 20:16:11 --> Could not find the language line "Human Resource"
+ERROR - 2020-11-20 20:16:11 --> Could not find the language line "Employees"
+ERROR - 2020-11-20 20:16:11 --> Could not find the language line "Drivers"
+ERROR - 2020-11-20 20:16:11 --> Could not find the language line "Add Employee"
+ERROR - 2020-11-20 20:16:11 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:16:11 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:16:12 --> Could not find the language line "Shipper Rate"
+ERROR - 2020-11-20 20:16:12 --> Could not find the language line "Add Shipper"
+ERROR - 2020-11-20 20:16:12 --> Could not find the language line "Shipment Details"
+ERROR - 2020-11-20 20:16:12 --> Could not find the language line "Tracking"
+ERROR - 2020-11-20 20:16:12 --> Could not find the language line "Place Order"
+ERROR - 2020-11-20 20:16:12 --> Could not find the language line "Operation Dashboard"
+ERROR - 2020-11-20 20:16:12 --> Could not find the language line "Update Status"
+ERROR - 2020-11-20 20:16:12 --> Could not find the language line "Edit Order"
+ERROR - 2020-11-20 20:16:12 --> Could not find the language line "Send Sms"
+ERROR - 2020-11-20 20:16:12 --> Could not find the language line "Uploading Shipments"
+ERROR - 2020-11-20 20:16:12 --> Could not find the language line "Enable Bitsclan Theme for clients"
+ERROR - 2020-11-20 20:16:12 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\duliver\application\controllers\admin\Employees.php 155
+ERROR - 2020-11-20 20:16:12 --> Severity: Notice --> Undefined index: employee_code C:\xampp\htdocs\duliver\application\controllers\admin\Employees.php 161
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 51
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: middle_name C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 59
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 67
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: dob C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 75
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: marital_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 85
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: gender C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 94
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: gender C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 99
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: nationality_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 112
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: nationality_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 113
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: passport_number C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 122
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: passport_expiry_date C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 131
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: immigration_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 141
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: immigration_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 142
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: immigration_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 143
+ERROR - 2020-11-20 20:16:13 --> Severity: Notice --> Undefined index: immigration_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 144
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: immigration_expiry_date C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 153
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: emirates_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 161
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: others_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 169
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: license_no C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 178
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: image C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 193
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: phone_number C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 217
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: mobile_number C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 225
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: emergency_phone C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 233
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: work_email C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 242
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: private_email C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 251
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: city C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 259
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:14 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:15 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:15 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:15 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:15 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:15 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:15 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:15 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:15 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:15 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:15 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:16 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:17 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:18 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:19 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:20 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:21 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:22 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:23 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:24 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:25 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:26 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:26 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:26 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:26 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:26 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:26 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:26 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:26 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:26 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:26 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:26 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:26 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:26 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:27 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:28 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: zip C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 291
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: address_line_1 C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 300
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: address_line_2 C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 309
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: job_title_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 326
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: job_title_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 327
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: job_title_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 328
+ERROR - 2020-11-20 20:16:29 --> Severity: Notice --> Undefined index: job_title_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 329
+ERROR - 2020-11-20 20:16:30 --> Severity: Notice --> Undefined index: employeement_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 340
+ERROR - 2020-11-20 20:16:30 --> Severity: Notice --> Undefined index: department_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 352
+ERROR - 2020-11-20 20:16:30 --> Severity: Notice --> Undefined index: join_date C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 362
+ERROR - 2020-11-20 20:16:30 --> Severity: Notice --> Undefined index: confirmation_date C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 370
+ERROR - 2020-11-20 20:16:30 --> Severity: Notice --> Undefined index: termination_date C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 378
+ERROR - 2020-11-20 20:16:30 --> Severity: Notice --> Undefined index: user_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 431
+ERROR - 2020-11-20 20:16:30 --> Severity: Notice --> Undefined index: user_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 436
+ERROR - 2020-11-20 20:16:30 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 459
+ERROR - 2020-11-20 20:18:52 --> Could not find the language line "Admin"
+ERROR - 2020-11-20 20:18:52 --> Could not find the language line "Logout"
+ERROR - 2020-11-20 20:18:52 --> Could not find the language line "Human Resource"
+ERROR - 2020-11-20 20:18:52 --> Could not find the language line "Employees"
+ERROR - 2020-11-20 20:18:52 --> Could not find the language line "Drivers"
+ERROR - 2020-11-20 20:18:52 --> Could not find the language line "Add Employee"
+ERROR - 2020-11-20 20:18:52 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:18:52 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:18:53 --> Could not find the language line "Shipper Rate"
+ERROR - 2020-11-20 20:18:53 --> Could not find the language line "Add Shipper"
+ERROR - 2020-11-20 20:18:53 --> Could not find the language line "Shipment Details"
+ERROR - 2020-11-20 20:18:53 --> Could not find the language line "Tracking"
+ERROR - 2020-11-20 20:18:53 --> Could not find the language line "Place Order"
+ERROR - 2020-11-20 20:18:53 --> Could not find the language line "Operation Dashboard"
+ERROR - 2020-11-20 20:18:53 --> Could not find the language line "Update Status"
+ERROR - 2020-11-20 20:18:53 --> Could not find the language line "Edit Order"
+ERROR - 2020-11-20 20:18:53 --> Could not find the language line "Send Sms"
+ERROR - 2020-11-20 20:18:53 --> Could not find the language line "Uploading Shipments"
+ERROR - 2020-11-20 20:18:53 --> Could not find the language line "Enable Bitsclan Theme for clients"
+ERROR - 2020-11-20 20:18:53 --> Severity: Notice --> Undefined offset: 0 C:\xampp\htdocs\duliver\application\controllers\admin\Employees.php 155
+ERROR - 2020-11-20 20:18:53 --> Severity: Notice --> Undefined index: employee_code C:\xampp\htdocs\duliver\application\controllers\admin\Employees.php 161
+ERROR - 2020-11-20 20:18:53 --> Severity: Notice --> Undefined index: first_name C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 51
+ERROR - 2020-11-20 20:18:53 --> Severity: Notice --> Undefined index: middle_name C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 59
+ERROR - 2020-11-20 20:18:53 --> Severity: Notice --> Undefined index: last_name C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 67
+ERROR - 2020-11-20 20:18:53 --> Severity: Notice --> Undefined index: dob C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 75
+ERROR - 2020-11-20 20:18:53 --> Severity: Notice --> Undefined index: marital_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 85
+ERROR - 2020-11-20 20:18:53 --> Severity: Notice --> Undefined index: gender C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 94
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: gender C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 99
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: nationality_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 112
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: nationality_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 113
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: passport_number C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 122
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: passport_expiry_date C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 131
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: immigration_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 141
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: immigration_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 142
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: immigration_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 143
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: immigration_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 144
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: immigration_expiry_date C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 153
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: emirates_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 161
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: others_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 169
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: license_no C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 178
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: image C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 193
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: phone_number C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 217
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: mobile_number C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 225
+ERROR - 2020-11-20 20:18:54 --> Severity: Notice --> Undefined index: emergency_phone C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 233
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: work_email C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 242
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: private_email C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 251
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: city C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 259
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:55 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:56 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:57 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:58 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:18:59 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:00 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:01 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:02 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:03 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:04 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:05 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:06 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:07 --> Severity: Notice --> Undefined index: country_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 274
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: zip C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 291
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: address_line_1 C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 300
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: address_line_2 C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 309
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: job_title_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 326
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: job_title_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 327
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: job_title_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 328
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: job_title_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 329
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: employeement_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 340
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: department_id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 352
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: join_date C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 362
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: confirmation_date C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 370
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: termination_date C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 378
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: user_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 431
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: user_status C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 436
+ERROR - 2020-11-20 20:19:08 --> Severity: Notice --> Undefined index: id C:\xampp\htdocs\duliver\application\views\admin\employees\employee.php 459
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Admin"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Logout"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Human Resource"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Employees"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Drivers"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Add Employee"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Shipper Rate"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Add Shipper"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Shipment Details"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Tracking"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Place Order"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Operation Dashboard"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Update Status"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Edit Order"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Send Sms"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Uploading Shipments"
+ERROR - 2020-11-20 20:23:45 --> Could not find the language line "Enable Bitsclan Theme for clients"
+ERROR - 2020-11-20 20:23:46 --> Could not find the language line "shipment_details"
+ERROR - 2020-11-20 20:23:46 --> Could not find the language line "Shipment Tracking"
+ERROR - 2020-11-20 16:23:47 --> 404 Page Not Found: admin/Customcss/index
+ERROR - 2020-11-20 20:24:23 --> Could not find the language line "Admin"
+ERROR - 2020-11-20 20:24:23 --> Could not find the language line "Logout"
+ERROR - 2020-11-20 20:24:23 --> Could not find the language line "Human Resource"
+ERROR - 2020-11-20 20:24:23 --> Could not find the language line "Employees"
+ERROR - 2020-11-20 20:24:23 --> Could not find the language line "Drivers"
+ERROR - 2020-11-20 20:24:23 --> Could not find the language line "Add Employee"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Shipper Rate"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Add Shipper"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Shipment Details"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Tracking"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Place Order"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Operation Dashboard"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Update Status"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Edit Order"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Send Sms"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Uploading Shipments"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Enable Bitsclan Theme for clients"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Code"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Fullname"
+ERROR - 2020-11-20 20:24:24 --> Could not find the language line "Mobile"
+ERROR - 2020-11-20 20:24:25 --> Could not find the language line "Job Title"
+ERROR - 2020-11-20 20:24:25 --> Could not find the language line "Email"
+ERROR - 2020-11-20 20:24:25 --> Could not find the language line "Gender"
+ERROR - 2020-11-20 20:24:25 --> Could not find the language line "Address"
+ERROR - 2020-11-20 20:24:25 --> Could not find the language line "Action"
+ERROR - 2020-11-20 16:24:25 --> 404 Page Not Found: admin/Customcss/index
+ERROR - 2020-11-20 20:24:27 --> Could not find the language line "Admin"
+ERROR - 2020-11-20 20:24:27 --> Could not find the language line "Logout"
+ERROR - 2020-11-20 20:24:27 --> Could not find the language line "Human Resource"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Employees"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Drivers"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Add Employee"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Shipper Rate"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Add Shipper"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Shipment Details"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Tracking"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Place Order"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Operation Dashboard"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Update Status"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Edit Order"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Send Sms"
+ERROR - 2020-11-20 20:24:28 --> Could not find the language line "Uploading Shipments"
+ERROR - 2020-11-20 20:24:29 --> Could not find the language line "Enable Bitsclan Theme for clients"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Admin"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Logout"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Human Resource"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Employees"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Drivers"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Add Employee"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Shipper Rate"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Add Shipper"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Shipment Details"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Tracking"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Place Order"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Operation Dashboard"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Update Status"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Edit Order"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Send Sms"
+ERROR - 2020-11-20 20:33:40 --> Could not find the language line "Uploading Shipments"
+ERROR - 2020-11-20 20:33:41 --> Could not find the language line "Enable Bitsclan Theme for clients"
+ERROR - 2020-11-20 20:33:41 --> Could not find the language line "Code"
+ERROR - 2020-11-20 20:33:41 --> Could not find the language line "Fullname"
+ERROR - 2020-11-20 20:33:41 --> Could not find the language line "Mobile"
+ERROR - 2020-11-20 20:33:41 --> Could not find the language line "Job Title"
+ERROR - 2020-11-20 20:33:41 --> Could not find the language line "Email"
+ERROR - 2020-11-20 20:33:41 --> Could not find the language line "Gender"
+ERROR - 2020-11-20 20:33:41 --> Could not find the language line "Address"
+ERROR - 2020-11-20 20:33:41 --> Could not find the language line "Action"
+ERROR - 2020-11-20 16:33:41 --> 404 Page Not Found: admin/Customcss/index
+ERROR - 2020-11-20 20:33:44 --> Could not find the language line "Admin"
+ERROR - 2020-11-20 20:33:44 --> Could not find the language line "Logout"
+ERROR - 2020-11-20 20:33:44 --> Could not find the language line "Human Resource"
+ERROR - 2020-11-20 20:33:44 --> Could not find the language line "Employees"
+ERROR - 2020-11-20 20:33:44 --> Could not find the language line "Drivers"
+ERROR - 2020-11-20 20:33:44 --> Could not find the language line "Add Employee"
+ERROR - 2020-11-20 20:33:44 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:33:44 --> Could not find the language line "Shipper Details"
+ERROR - 2020-11-20 20:33:44 --> Could not find the language line "Shipper Rate"
+ERROR - 2020-11-20 20:33:44 --> Could not find the language line "Add Shipper"
+ERROR - 2020-11-20 20:33:45 --> Could not find the language line "Shipment Details"
+ERROR - 2020-11-20 20:33:45 --> Could not find the language line "Tracking"
+ERROR - 2020-11-20 20:33:45 --> Could not find the language line "Place Order"
+ERROR - 2020-11-20 20:33:45 --> Could not find the language line "Operation Dashboard"
+ERROR - 2020-11-20 20:33:45 --> Could not find the language line "Update Status"
+ERROR - 2020-11-20 20:33:45 --> Could not find the language line "Edit Order"
+ERROR - 2020-11-20 20:33:45 --> Could not find the language line "Send Sms"
+ERROR - 2020-11-20 20:33:45 --> Could not find the language line "Uploading Shipments"
+ERROR - 2020-11-20 20:33:45 --> Could not find the language line "Enable Bitsclan Theme for clients"

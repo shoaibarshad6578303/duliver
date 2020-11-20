@@ -1,6 +1,6 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
 <?php init_head(); ?>
-
+<script type="text/javascript">var country = '<?=json_encode($countries)?>';</script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src = "https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
  
@@ -82,7 +82,11 @@
                      <div>
                         <select name="marital_status" id="marital_status" class="form-control" required>
                            <option value="" <?=(!isset($client))?'selected':''?> disabled></option>
-                           <option value="single" <?=(isset($client) && $client['marital_status'] == "single")?'selected':''?> >Single</option>
+                           <option value="Single" <?=(isset($client) && $client['marital_status'] == "Single")?'selected':''?> >Single</option>
+                           <option value="Married" <?=(isset($client) && $client['marital_status'] == "Married")?'selected':''?>>Married</option>
+                           <option value="Divorced" <?=(isset($client) && $client['marital_status'] == "Divorced")?'selected':''?>>Divorced</option>
+                           <option value="Widowed" <?=(isset($client) && $client['marital_status'] == "Widowed")?'selected':''?>>Widowed</option>
+                           <option value="Other" <?=(isset($client) && $client['marital_status'] == "Other")?'selected':''?>>Other</option></select>
                         </select>
                      </div>
                   </div>
@@ -91,12 +95,12 @@
                <div class="col-md-4">
                <label for="marital_status">Gender </label>
                <div class="form-check">
-                <input class="form-check-input" type="radio" name="gender" id="exampleRadios1" value="1" <?=(isset($client) && $client['gender'] == "1")?'checked':''?> required>
+                <input class="form-check-input" type="radio" name="gender" id="exampleRadios1" value="Male" <?=(isset($client) && $client['gender'] == "Male")?'checked':''?> required>
                   <label class="form-check-label" for="Male">
                   Male
                    </label>
 
-                   <input class="form-check-input" type="radio" name="gender" id="exampleRadios2" value="2" <?=(isset($client) && $client['gender'] == "2")?'checked':''?> required >
+                   <input class="form-check-input" type="radio" name="gender" id="exampleRadios2" value="Female" <?=(isset($client) && $client['gender'] == "Female")?'checked':''?> required >
                <label class="form-check-label" for="exampleRadios2">
                  Female
               </label>
@@ -109,8 +113,7 @@
                      <div>
                         <select name="nationality_id" id="nationality_id" class="form-control" required>
                            <option <?=(!isset($client))?'selected':''?> disabled></option>
-                           <option value="1" <?=(isset($client) && $client['nationality_id'] == "1")?'selected':''?>>Pakistan</option>
-                           <option value="2" <?=(isset($client) && $client['nationality_id'] == "2")?'selected':''?>>India</option>
+                           <option value="Pakistan" <?=(isset($client) && $client['nationality_id'] == "Pakistan")?'selected':''?>>Pakistan</option>
                         </select>
                      </div>
                   </div>
@@ -138,10 +141,10 @@
                      <div>
                         <select name="immigration_status" id="immigration_status" class="form-control" required>
                            <option <?=(!isset($client))?'selected':''?>  disabled>Please, select immigration status</option>
-                           <option value="1" <?=(isset($client) && $client['immigration_status'] == "1")?'selected':''?> >Citizen</option>
-                           <option value="2" <?=(isset($client) && $client['immigration_status'] == "2")?'selected':''?> >Dependant Pass Holder</option>
-                           <option value="3" <?=(isset($client) && $client['immigration_status'] == "3")?'selected':''?> >Pemanent Resident</option>
-                           <option value="4" <?=(isset($client) && $client['immigration_status'] == "4")?'selected':''?> >Work Permit Holder</option>
+                           <option value="Citizen" <?=(isset($client) && $client['immigration_status'] == "Citizen")?'selected':''?> >Citizen</option>
+                           <option value="Dependant Pass Holder" <?=(isset($client) && $client['immigration_status'] == "Dependant Pass Holder")?'selected':''?> >Dependant Pass Holder</option>
+                           <option value="Pemanent Resident" <?=(isset($client) && $client['immigration_status'] == "Pemanent Resident")?'selected':''?> >Pemanent Resident</option>
+                           <option value="Work Permit Holder" <?=(isset($client) && $client['immigration_status'] == "Work Permit Holder")?'selected':''?> >Work Permit Holder</option>
                         </select>
                      </div>
                   </div>
@@ -252,26 +255,18 @@
                      </div>
                   </div>
                </div>
-               <div class="col-md-3">
-               <div class="form-group">
-                     <label for="city">City </label>
-                     <div>
-                        <input type="text" name="city" id="city"  value="<?=isset($client) ? $client['city'] : ''  ?>" class="form-control" required>
-                     </div>
-                  </div>
-               </div>
 
-               <div class="col-md-3">
+                 <div class="col-md-3">
                <div class="form-group">
                      <label for="country_id"> Country </label>
                      <div>
                         <select name="country_id" id="country_id" class="form-control" required>
-                           <option <?=(!isset($client))?'selected':''?> disabled>Please, select immigration status</option>
+                           <option <?=(!isset($client))?'selected':''?> disabled>Select Country</option>
                            <?php
-                              foreach($countries as $country)
+                              foreach($countries as $country_key => $country)
                            {
                               ?>
-                              <option value="<?=$country['country_id']?>" <?=(isset($client) && $client['country_id'] == "1")?'selected':''?>><?=$country['short_name']?></option>
+                              <option value="<?=$country_key?>" <?=(isset($client) && $client['country_id'] == "1")?'selected':''?>><?=$country['name']?></option>
                               <?php
 
                            }
@@ -284,6 +279,30 @@
                   </div>
                </div>
 
+               <div class="col-md-3">
+               <div class="form-group">
+                     <label for="city">City </label>
+                     <div>
+                        <select name="city" id="city" class="form-control" required>
+                           <option <?=(!isset($client))?'selected':''?> disabled>Select City</option>
+                           <?php
+                              foreach($countries as $country_key => $country)
+                           {
+                              ?>
+                              <option value="<?=$country_key?>" <?=(isset($client) && $client['country_id'] == "1")?'selected':''?>><?=$country['name']?></option>
+                              <?php
+
+                           }
+
+                           ?>
+                           
+                         
+                        </select>
+                     </div>
+                  </div>
+               </div>
+
+             
                <div class="col-md-3">
                <div class="form-group">
                      <label for="zip">Postal/Zip Code </label>
@@ -486,7 +505,19 @@
 <script>
    $(function(){
 
+      $('#country_id').on('change',function(){
 
+         let cities = JSON.parse(country);
+
+         $.each(cities[$(this).val()]['cities'], function(index, item) {
+
+            let o = new Option(item['name'], index);
+            $(o).html(item['name']);
+            $('#city').append(o);
+            
+         });
+
+      });
 
    });
   

@@ -37,7 +37,7 @@ class Employees extends AdminController
             $data['employee_code'] = 'Emp000001';
         }
         $data['countries'] = get_all_countries();
-
+    
         $this->load->view('admin/employees/employee', $data);
     }
 
