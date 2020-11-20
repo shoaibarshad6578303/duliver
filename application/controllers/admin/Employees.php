@@ -43,7 +43,6 @@ class Employees extends AdminController
 
     public function save()
     {
-
         $image = $this->do_upload();
 
         $extras = array(

@@ -10,17 +10,9 @@
                     <h3><?php echo _l('Shipper Information'); ?></h3>
                     <hr class="hr-panel-heading" />
                     <div class="row" id="contract_summary">
-                    <?php if(isset($id)) {?>
 
                     <?php echo form_open_multipart('admin/shipper_detail/update_shipper', array('id'=>'drivers-form','class'=>'drivers-form')); ?>
-                    <?php } else {?>
-                    <?php echo form_open_multipart('admin/shipper_detail/save_shipper', array('id'=>'drivers-form','class'=>'drivers-form')); ?>
-                    <?php } ?>
-
-                    <?php if(isset($id)) {?>
-                        <input type="hidden" value="<?php echo $id; ?>" name="id">
-                        <?php } ?> 
-
+                       
              <div class="col-sm-12">
             <div class="">
 <div class="row">
@@ -28,17 +20,6 @@
         <div class="col-sm-9">
             <div class="row">
                 <div class="col-sm-4">
-                <?php if(isset($id)) {?>
-                    <div class="form-group">
-                        <label for="txtShipperCode">Shipper Code</label><i class="fa fa-asterisk astcolor"></i>
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-slack fa-md fa-fw"></i></span>
-                            <input class="form-control input-md" disabled="disabled" type="text" name="txtShipperCode" id="txtShipperCode" placeholder="Shipper Code" value="<?=$shipper_code;?>">     
-                        <input type="hidden" name="shipper_code" id="shipper_code" value="<?=isset($client) ? $client['shipper_code'] : ''  ?>" class="form-control">
-
-                        </div>
-                    </div>
-                    <?php } else {?>
                     <div class="form-group">
                         <label for="txtShipperCode">Shipper Code</label><i class="fa fa-asterisk astcolor"></i>
                         <div class="input-group">
@@ -48,14 +29,13 @@
 
                         </div>
                     </div>
-                    <?php } ?>
                 </div>
                 <div class="col-sm-4">
                     <div class="form-group">
-                        <label for="trade_name">Trade Name</label><i class="fa fa-asterisk astcolor"></i>
+                        <label for="txtShipperName">Trade Name</label><i class="fa fa-asterisk astcolor"></i>
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-user fa-md fa-fw"></i></span>
-                            <input class="form-control input-md" type="text" style="text-transform:capitalize" name="trade_name" id="trade_name" placeholder="Trade Name" value="<?=isset($client) ? $client['trade_name'] : ''  ?>" required>
+                            <input class="form-control input-md" type="text" style="text-transform:capitalize" name="trade_name	" id="trade_name" placeholder="Trade Name" value="<?=isset($client) ? $client['private_email'] : ''  ?>">
                         </div>
                     </div>
                 </div>
@@ -65,7 +45,7 @@
                         <label for="txtCompanyName">Commercial Name</label> <i class="fa fa-asterisk astcolor"></i>
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-building fa-md fa-fw"></i></span>
-                            <input class="form-control input-md" type="text" name="commercial_name" id="commercial_name" placeholder="Commercial Name " value="<?=isset($client) ? $client['commercial_name'] : ''  ?>" required>
+                            <input class="form-control input-md" type="text" name="commercial_name" id="commercial_name" placeholder="Commercial Name " value="<?=isset($client) ? $client['private_email'] : ''  ?>">
                         </div>
                     </div>
                 </div>
@@ -76,7 +56,7 @@
                         <label for="txtShipperEmail">Shipper Email</label>
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-envelope-o fa-md fa-fw"></i></span>
-                            <input class="form-control input-md" type="text" name="email" id="email" placeholder="Shipper Email" value="<?=isset($client) ? $client['email'] : ''  ?>">
+                            <input class="form-control input-md" type="text" name="email" id="email" placeholder="Shipper Email" value="<?=isset($client) ? $client['private_email'] : ''  ?>">
                         </div>
                     </div>
                 </div>
@@ -85,7 +65,7 @@
                         <label for="txtContactOffice1">Contact Office 1</label><i class="fa fa-asterisk astcolor"></i>
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-phone fa-md fa-fw"></i></span>
-                            <input class="form-control input-md" type="text" name="contact_1" id="contact_1" placeholder="Contact Office 1" value="<?=isset($client) ? $client['contact_1'] : ''  ?>">
+                            <input class="form-control input-md" type="text" name="contact_1" id="contact_1" placeholder="Contact Office 1" value="<?=isset($client) ? $client['private_email'] : ''  ?>">
                         </div>
                     </div>
                 </div>
@@ -94,7 +74,7 @@
                         <label for="txtContactOffice2">Contact Office 2</label>
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-phone fa-md fa-fw"></i></span>
-                            <input class="form-control input-md" type="text" name="contact_2" id="contact_2" placeholder="Contact Office 2" value="<?=isset($client) ? $client['contact_2'] : ''  ?>">
+                            <input class="form-control input-md" type="text" name="contact_2" id="contact_2" placeholder="Contact Office 2" value="<?=isset($client) ? $client['private_email'] : ''  ?>">
                         </div>
                     </div>
                 </div>
@@ -105,7 +85,7 @@
                         <label for="txtTradeLicenseNo">Trade License No </label>
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-slack fa-md fa-fw"></i></span>
-                            <input class="form-control input-md" type="text" name="trade_licence_no" id="trade_licence_no" placeholder="Trade License No" value="<?=isset($client) ? $client['trade_licence_no'] : ''  ?>">
+                            <input class="form-control input-md" type="text" name="trade_licence_no" id="trade_licence_no" placeholder="Trade License No" value="<?=isset($client) ? $client['private_email'] : ''  ?>">
                         </div>
                     </div>
                 </div>
@@ -115,7 +95,7 @@
                     <section id="country">
                         <div class="form-group">
                             <label> Country</label> <i class="fa fa-asterisk txt-color-red"></i>
-                            <select id="country_id"  name="country_id" class="form-control select2-hidden-accessible" style="width:100%" tabindex="-1" aria-hidden="true">
+                            <select id="country_id" class="form-control select2-hidden-accessible" style="width:100%" tabindex="-1" aria-hidden="true">
                                 
                             <option <?=(!isset($client))?'selected':''?> disabled>Please, select country</option>
                            <?php
@@ -207,7 +187,7 @@
             </div>
             <!-- end widget div -->
             <br>
-            <!-- <div id="addContactPerson" class="row">
+            <div id="addContactPerson" class="row">
                 <h4>Add a New Contact Person</h4>
                 <hr>
                 <div class="row">
@@ -217,7 +197,7 @@
                                 <label for="txtName" class="control-label">Name<span class="glyphicon glyphicon-asterisk astcolor"></span></label>
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-user fa-md fa-fw"></i></span>
-                                    <input type="text" placeholder="Name" class="form-control input-md" data-autoclose="true" name="cpName"  value="" id="txtName">
+                                    <input type="text" placeholder="Name" class="form-control input-md" data-autoclose="true" name="cpName"  value="<?=isset($client) ? $client['private_email'] : ''  ?>" id="txtName">
                                 </div>
                             </div>
                         </div>
@@ -226,7 +206,7 @@
                                 <label for="txtDesignation" class="control-label">Designation<span class="glyphicon glyphicon-asterisk astcolor"></span></label>
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-md fa-fw">D</i></span>
-                                    <input type="text" placeholder="Designation" class="form-control input-md" data-autoclose="true" name="cpDesignation" id="txtDesignation" value="">
+                                    <input type="text" placeholder="Designation" class="form-control input-md" data-autoclose="true" name="cpDesignation" id="txtDesignation" value="<?=isset($client) ? $client['private_email'] : ''  ?>">
                                 </div>
                             </div>
                         </div>
@@ -235,7 +215,7 @@
                                 <label for="txtEmail" class="control-label">Email<span class="glyphicon glyphicon-asterisk astcolor"></span></label>
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-envelope-o fa-md fa-fw"></i></span>
-                                    <input type="text" placeholder="Email" class="form-control input-md" data-autoclose="true" name="cpEmail" id="txtEmail" value="">
+                                    <input type="text" placeholder="Email" class="form-control input-md" data-autoclose="true" name="cpEmail" id="txtEmail" value="<?=isset($client) ? $client['private_email'] : ''  ?>">
                                 </div>
                             </div>
                         </div>
@@ -246,7 +226,7 @@
                                 <label for="txtContact1" class="control-label">Contact No 1 <span class="glyphicon glyphicon-asterisk astcolor"></span></label>
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-slack fa-md fa-fw"></i></span>
-                                    <input type="text" placeholder="Contact No 1" class="form-control input-md" data-autoclose="true" name="cpContact1" id="txtContact1" value="">
+                                    <input type="text" placeholder="Contact No 1" class="form-control input-md" data-autoclose="true" name="cpContact1" id="txtContact1" value="<?=isset($client) ? $client['private_email'] : ''  ?>">
                                 </div>
                             </div>
                         </div>
@@ -255,7 +235,7 @@
                                 <label for="txtContact2" class="control-label">Contact No 2</label>
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-phone fa-md fa-fw"></i></span>
-                                    <input type="text" placeholder="Contact No 2" class="form-control input-md" data-autoclose="true" name="cpContact2" id="txtContact2" value="">
+                                    <input type="text" placeholder="Contact No 2" class="form-control input-md" data-autoclose="true" name="cpContact2" id="txtContact2" value="<?=isset($client) ? $client['private_email'] : ''  ?>">
                                 </div>
                             </div>
                         </div>
@@ -270,7 +250,7 @@
                     </div>
                 </div>
                 <br>
-            </div> -->
+            </div>
         </div>
         <!-- end widget -->
     </div>
@@ -321,16 +301,7 @@
         <section id="ddlEmployeeList">
             <div class="form-group">
                 <label>Employee</label> <i class="fa fa-asterisk txt-color-red"></i>
-                <select id="employee" name="employee" class="form-control select2 select2-hidden-accessible" style="width:100%" tabindex="-1" aria-hidden="true">
-                <option value="0">Please select employee</option>
-                <?php foreach($employees  as $item) { ?>
-                    <?php if(isset($client) && $client['employee'] == $item->id) {?>
-                        <option selected value="<?php echo $item->id ?>"><?php echo $item->employee_code ?> | <?php echo $item->first_name ?> <?php echo $item->middle_name ?> <?php echo $item->last_name ?></option>
-                    <?php } else { ?>
-                           <option value="<?php echo $item->id ?>"><?php echo $item->employee_code ?> | <?php echo $item->first_name ?> <?php echo $item->middle_name ?> <?php echo $item->last_name ?></option>
-                           <?php } } ?>
-              
-            </select>
+                <select id="employee" name="employee" class="form-control select2 select2-hidden-accessible" style="width:100%" tabindex="-1" aria-hidden="true"><option value="0">Please select employee</option><option value="3">Emp00003 | Zahra  Tariq</option></select>
             </div>
         </section>
     </div>
@@ -344,15 +315,7 @@
         <section id="country">
             <div class="form-group">
                 <label>Driver</label> <i class="fa fa-asterisk txt-color-red"></i>
-                <select id="driver" name="driver" class="form-control select2-hidden-accessible" style="width:100%" tabindex="-1" aria-hidden="true">
-                <option value="0">Please Select Option</option>
-                <?php foreach($drivers  as $item) { ?>
-                    <?php  if(isset($client) && $item->id == $client['driver']) { ?>
-                <option selected value="<?php echo $item->id ?>"> <?php echo $item->driver_code; ?> | <?php echo $item->name ?> </option>
-                    <?php } else { ?>
-                <option value="<?php echo $item->id ?>"> <?php echo $item->driver_code; ?> | <?php echo $item->name ?> </option>
-                <?php } } ?>
-            </select>
+                <select id="driver" name="driver" class="form-control select2-hidden-accessible" style="width:100%" tabindex="-1" aria-hidden="true"><option value="0">Please Select Option</option><option value="3">DR0003 | ops  Driver1</option></select>
             </div>
         </section>
     </div>
@@ -369,7 +332,7 @@
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-user fa-md fa-fw"></i></span>
                     <!-- <input type="password" style="display:none;"> -->
-                    <input type="email" class="form-control" placeholder="Username" name="user_name" id="user_name"  value="<?=isset($client) ? $client['user_name'] : ''  ?>">
+                    <input type="email" class="form-control" placeholder="Username" name="user_name" id="user_name"  value="<?=isset($client) ? $client['private_email'] : ''  ?>">
                 </div>
             </div>
         </div>
@@ -380,7 +343,7 @@
                     <span class="input-group-addon"><i class="fa fa-lock fa-md fa-fw"></i></span>
                     <!-- <input type="password" style="display:none;"> -->
                     <!-- <input type="password" class="form-control" placeholder="Confirm Password" name="txtConfirmPassword" id="txtConfirmPassword"  value="<?=isset($client) ? $client['password'] : ''  ?>"> -->
-                    <input class="form-control" placeholder="Password" name="txtPassword" id="txtPassword" type="password"  value="<?=isset($client) ? $client['password']: ''  ?>">
+                    <input class="form-control" placeholder="Password" name="txtPassword" id="txtPassword" type="password"  value="<?=isset($client) ? $client['private_email'] : ''  ?>">
                 </div>
             </div>
         </div>
@@ -389,43 +352,24 @@
                 <label for="txtConfirmPassword">Confirm Password</label>
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-lock fa-md fa-fw"></i></span>
-                    <input type="password" class="form-control" placeholder="Confirm Password" name="confirm_password" id="confirm_password"  value="<?=isset($client) ? $client['password'] : ''  ?>">
+                    <input type="password" class="form-control" placeholder="Confirm Password" name="confirm_password" id="confirm_password"  value="<?=isset($client) ? $client['confirm_password'] : ''  ?>">
                 </div>
             </div>
         </div>
     </div>
-    <div class="col-md-2">
-               <label for="marital_status">User status </label>
-               <div class="form-check">
-             
-                <input  class="form-check-input" type="radio" name="user_status" id="exampleRadios1" value="1" <?=(isset($client) && $client['user_status'] == "1")?'checked':''?> required>
-                  <label class="form-check-label" for="Male" >
-                 Enable
-                   </label>
-
-                   <input class="form-check-input" type="radio" name="user_status" id="exampleRadios2" value="0" <?=(isset($client) && $client['user_status'] == "0")?'checked':''?> required>
-               <label class="form-check-label" for="exampleRadios2">
-                Disable
-              </label>
-              </div>
-               </div>
-
-
-    <!-- <div class="col-sm-2">
+    <div class="col-sm-2">
         <div class="">
             <label for="ddlUserStatus">User Status</label><i class="fa fa-asterisk astcolor"></i>
             <br>
-              
-
             <div class="onoffswitch">
-               
+                <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="onoff-Active">
                 <label class="onoffswitch-label" for="onoff-Active">
                     <span class="onoffswitch-inner" data-swchon-text="Enable" data-swchoff-text="Disable"></span>
                     <span class="onoffswitch-switch"></span>
                 </label>
             </div>
         </div>
-    </div> -->
+    </div>
 </div>
 
 

@@ -35,18 +35,19 @@ public function get_generated_id()
 
     public function get_user($user_id)
     {
-        $this->db->select('*')->from(db_prefix() . 'shipper_detail')->where("id.", $user_id);
+        
+      
+        $this->db->select('*')->from(db_prefix() . 'contacts')->where("userid", $user_id);
         
         $query = $this->db->get();
-
+        // print_r($query->result_array());exit;
         return $query->result_array();
         
     }
 
-    public function edit_employees($id)
+    public function edit_shipper_detail($id)
     {
-        // print_r("working on");
-        // exit;
+        
 
         $this->db->select('*');
         $this->db->where('id',$id);
@@ -57,6 +58,72 @@ public function get_generated_id()
 
 
     }
+
+    public function getEmployees(){
+
+       $this->db->select("*")->where('employee_code !=','')->where('status !=',0)->order_by('id',"ASC")->from(db_prefix() . 'employees');
+       $row = $this->db->get();
+       
+        return $row->result();
+    }
+
+    public function getDrivers(){
+
+        $row = $this->db->select("*")->where('driver_code !=','' )->where('status !=',0)->order_by('id',"ASC")->get(db_prefix() . 'drivers');
+        return $row->result();
+    }
+    public function delete_shipper_detail($id){
+       
+        $driverdata = array(
+            'deleted'=>0
+        );
+
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix().'shipper_detail', $driverdata);
+
+        $authdata = array(
+            'deleted'=>0
+        );
+
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix().'contacts', $authdata );
+        return;
+
+    }
+
+    //
+
+    public function save_shippers($authdata, $shipperdata)
+    {
+        $this->db->insert(db_prefix() . 'shipper_detail', $shipperdata);
+        $userid = $this->db->insert_id();
+        $authdata['userid'] = $userid;
+
+        // print_r( $authdata);exit;
+
+        $this->db->insert(db_prefix() . 'contacts', $authdata);
+        return;
+    }
+
+    public function update_shippers($authdata, $shipperdata)
+    {
+        $id = $shipperdata['id'];
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix() . 'shipper_detail', $shipperdata);
+        // $userid = $this->db->insert_id();
+        // $authdate   ['userid'] = $userid;
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix() . 'contacts', $authdata);
+        return;
+    }
+
+    
+
+
+    
+
+
+    
 
 
 }

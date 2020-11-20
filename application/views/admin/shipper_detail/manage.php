@@ -41,7 +41,12 @@
                  array(
                  'name'=>_l('Email'),
                  'th_attrs'=>array('class'=>'toggleable', 'id'=>'th-email')
-               )
+                 ),
+
+               array(
+                'name'=>_l('Action'),
+                'th_attrs'=>array('class'=>'toggleable', 'id'=>'th-action')
+              )
                
               );
               foreach($_table_data as $_t){

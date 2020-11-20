@@ -14,11 +14,12 @@ $aColumns = [
     'contact_1',
     'trade_licence_no',
     'email',
+    db_prefix().'shipper_detail.id as action',
 ];
 
 $sIndexColumn = 'id';
 $sTable       = db_prefix().'shipper_detail';
-$where        = [];
+$where        = ['where deleted = 1'];
 // Add blank where all filter can be stored
 $filter = [];
 $join = [];
@@ -47,6 +48,8 @@ foreach ($rResult as $aRow) {
 
     $row[] = $aRow['email'];
    
-
+    $row[] = '<a class="btn btn-sm btn-primary" href="shipper_detail/delete/' . $aRow['id'] . '"> Delete </a> <a class="btn btn-sm btn-success ml-1" href="shipper_detail/edit/' . $aRow['id'] . '"> Edit </a>';
+    
+    
     $output['aaData'][] = $row;
 }

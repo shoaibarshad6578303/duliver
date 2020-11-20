@@ -20,8 +20,6 @@ $aColumns = [
 ];
 
 
-
-
 $sIndexColumn = 'id';
 $sTable       = db_prefix().'employees';
 $where        = ['where status=1'];

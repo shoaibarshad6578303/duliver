@@ -59,6 +59,7 @@ class Drivers extends AdminController
                 'password' => md5($this->input->post('password', TRUE)),
                 'userid'=>''
             );
+
     
             $driverdata=array(
                 'driver_code'=>$this->input->post('driver_code', TRUE),
@@ -108,21 +109,19 @@ class Drivers extends AdminController
         // $data['client']['user_role'] = $user_details[0]['user_role'];
         $data['title']='employees';
         $data['employee_code'] = $data['client']['employee_code'];
-
        
         $this->load->view('admin/drivers/driver_edit', $data);
     }
 
-    public function update(){
 
+    public function update(){
+        
         $authdate = array(
             'firstname' => $this->input->post('name', TRUE),
             // 'lastname' => $this->input->post('last_name', TRUE),
             'user_name' => $this->input->post('user_name', TRUE),
             'password' => md5($this->input->post('password', TRUE)),
         );
-
-      
 
         $driverdata=array(
             'driver_code'=>$this->input->post('driver_code', TRUE),
