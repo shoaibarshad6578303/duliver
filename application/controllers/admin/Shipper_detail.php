@@ -97,7 +97,7 @@ public function do_upload()
 {
 
     $image = "";
-    $config['upload_path'] = 'uploads/employees';
+    $config['upload_path'] = 'uploads/shipper_detail';
     $config['allowed_types'] = 'gif|jpg|png';
     // $config['max_size'] = '100';
     // $config['max_width'] = '1024';
@@ -118,10 +118,6 @@ public function do_upload()
 
     public function save_shipper()
     {
-
-      
-
-
 
         $image = $this->do_upload();
 

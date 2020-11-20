@@ -22,7 +22,7 @@
                         <?php } ?> 
 
              <div class="col-sm-12">
-            <div class="">
+    <div class="">
 <div class="row">
     <div class="col-sm-12">
         <div class="col-sm-9">
@@ -128,11 +128,7 @@
                            }
 
                            ?>
-
                             </select>
-
-
-
                         </div>
                     </section>
                 </div>

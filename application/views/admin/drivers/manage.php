@@ -8,6 +8,8 @@
    
    endforeach;
    ?>
+
+   
 var employees = '<?=json_encode($e_data);?>';
 console.log(employees);
 </script>

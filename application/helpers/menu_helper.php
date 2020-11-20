@@ -110,6 +110,40 @@ $CI->app_menu->add_sidebar_children_item('human-resource', [
                 'icon' => 'fa fa-reply'
                 ]);
 
+                $CI->app_menu->add_sidebar_children_item('shipment-details', [
+                        'slug' => 'operation-dashboard',
+                        'name' => _l('Update Status'),
+                        'href' => admin_url('shipment_details/update_status'),
+                        'position' => 5,
+                        'icon' => 'fa fa-edit'
+                        ]);
+
+                $CI->app_menu->add_sidebar_children_item('shipment-details', [
+                        'slug' => 'operation-dashboard',
+                        'name' => _l('Edit Order'),
+                        'href' => admin_url('shipment_details/edit_order'),
+                        'position' => 5,
+                        'icon' => 'fa fa-edit'
+                        ]);
+
+
+                        $CI->app_menu->add_sidebar_children_item('shipment-details', [
+                                'slug' => 'operation-dashboard',
+                                'name' => _l('Send Sms'),
+                                'href' => admin_url('shipment_details/send_sms'),
+                                'position' => 5,
+                                'icon' => 'fa fa-lg fa-fw fa-envelope'
+                                ]);
+
+                                $CI->app_menu->add_sidebar_children_item('shipment-details', [
+                                        'slug' => 'operation-dashboard',
+                                        'name' => _l('Uploading Shipments'),
+                                        'href' => admin_url('shipment_details/uploading_shipments'),
+                                        'position' => 5,
+                                        'icon' => 'fa fa-lg fa-fw fa-file-excel-o'
+                                        ]);
+
+
 
 //     if (has_permission('customers', '', 'view')
 //         || (have_assigned_customers()

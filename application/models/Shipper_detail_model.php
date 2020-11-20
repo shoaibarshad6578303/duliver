@@ -72,6 +72,7 @@ public function get_generated_id()
         $row = $this->db->select("*")->where('driver_code !=','' )->where('status !=',0)->order_by('id',"ASC")->get(db_prefix() . 'drivers');
         return $row->result();
     }
+
     public function delete_shipper_detail($id){
        
         $driverdata = array(
@@ -88,7 +89,6 @@ public function get_generated_id()
         $this->db->where('id', $id);
         $this->db->update(db_prefix().'contacts', $authdata );
         return;
-
     }
 
     //
