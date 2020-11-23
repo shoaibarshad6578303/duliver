@@ -46,6 +46,36 @@ parent::__construct();
         return $query->result_array();
 
     }
+   
+
+    public function get_order_id($id){
+        $this->db->select('id')->from(db_prefix() . 'shipment_detail_orders')->where("tracking_number", $id);
+        
+        $query = $this->db->get();
+
+        // print_r($query->result_array());
+        // exit;
+        return $query->result_array();
+    }
+
+    // public function all_orders(){
+
+    //     $this->db->select('*')->from(db_prefix() . 'shipment_detail_orders');
+    //     $query = $this->db->get();
+    //     return $query->result();
+
+    // }
+
+
+
+    public function update_orders($orderdata)
+    {
+        $id = $orderdata['id'];
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix() . 'shipment_detail_orders', $orderdata);
+       
+        return;
+    }
 
     public function get_generated_id()
     {

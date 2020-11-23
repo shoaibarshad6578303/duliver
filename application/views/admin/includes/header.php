@@ -94,7 +94,7 @@
    <li class="dropdown notifications-wrapper header-notifications" data-toggle="tooltip" title="<?php echo _l('nav_notifications'); ?>" data-placement="bottom">
       <?php $this->load->view('admin/includes/notifications'); ?>
    </li>
-   <li class="icon header-user-profile" data-toggle="tooltip" title="<?php echo get_staff_full_name(); ?>" data-placement="bottom">
+   <!-- <li class="icon header-user-profile" data-toggle="tooltip" title="<?php echo get_staff_full_name(); ?>" data-placement="bottom">
       <a href="#" class="dropdown-toggle profile" data-toggle="dropdown" aria-expanded="false">
          <?php echo staff_profile_image($current_user->staffid,array('img','img-responsive','staff-profile-image-small','pull-left')); ?>
       </a>
@@ -118,7 +118,7 @@
             <a href="#" onclick="logout(); return false;"><?php echo _l('nav_logout'); ?></a>
          </li>
       </ul>
-   </li>
+   </li> -->
 </ul>
 </nav>
 </div>

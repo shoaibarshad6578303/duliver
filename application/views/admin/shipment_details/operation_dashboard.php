@@ -46,20 +46,31 @@
                 <!-- widget div-->
 <div>
     <div id="wrapper-test" class="widget-body " style="margin: auto -10px;">
-        <div id="dtAllShipments_wrapper" class="dataTables_wrapper no-footer"><div class="dt-toolbar"><div class="row"><div class="col-sm-9 form-Control"><div id="dtAllShipments_filter" class="dataTables_filter"><div id="selected" hidden=""><div id="selectedRowsCount">O orders Selected</div></div></div></div><div class="col-sm-3 dt-btn-Filter"><button class="btn btn-link" data-toggle="modal" data-target="#ShipmentFilterModal"><i class="fa fa-bars 2x "></i></button> <div class="btn-group "> <button class="btn btn-link dropdown-toggle " data-toggle="dropdown">Action&nbsp;<span class="caret"></span></button><ul class="dropdown-menu">  <li> <a id="dt-exportToExcel" onclick="JSAllShipments.ExportToExcel();">Export To Excel</a> </li>  <li> <a id="dt-btnAirWayBillLabel" onclick="JSAllShipments.AWB();">AWBZ Label</a></li>  <li> <a id="dt-btnBatchUpdate" onclick="JSBatchUpdate.ShowModal();">Batch Update</a></li>  <li> <a id="dt-btnBatchDelete" onclick="JSAllShipments.ShowModal();">Batch Delete</a></li>  <li> <a id="dt-btnBatchOutScan" onclick="JSBatchOutScan.ShowModal();">Batch OutScan</a></li>  <li> <a id="dt-btnBatchInScan" onclick="JSBatchInScan.ShowModal();">Batch InScan</a></li>  <li> <a id="dt-btnAssignRack" onclick="JSBatchAssignRack.ShowModal();">Batch Assign Rack</a></li>  </ul> </div> <div id="btnManifest" style="" class="btn btn-default" onclick="JSAllShipments.Manifest();">Download Manifest</div></div></div></div><div class="dataTables_scroll"><div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px; width: 100%;"><div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 996px; padding-right: 17px;">
+        <div id="dtAllShipments_wrapper" class="dataTables_wrapper no-footer">
+            <div class="dt-toolbar">
+                <div class="row">
+                    <div class="col-sm-9 form-Control">
+                        <div id="dtAllShipments_filter" class="dataTables_filter">
+                            <div id="selected" hidden="">
+                                <div id="selectedRowsCount">O orders Selected</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 dt-btn-Filter">
+                        <button class="btn btn-link" data-toggle="modal" data-target="#ShipmentFilterModal"><i class="fa fa-bars 2x "></i></button> <div class="btn-group "> <button class="btn btn-link dropdown-toggle " data-toggle="dropdown">Action&nbsp;<span class="caret"></span></button><ul class="dropdown-menu">  <li> <a id="dt-exportToExcel" onclick="JSAllShipments.ExportToExcel();">Export To Excel</a> </li>  <li> <a id="dt-btnAirWayBillLabel" onclick="JSAllShipments.AWB();">AWBZ Label</a></li>  <li> <a id="dt-btnBatchUpdate" onclick="JSBatchUpdate.ShowModal();">Batch Update</a></li>  <li> <a id="dt-btnBatchDelete" onclick="JSAllShipments.ShowModal();">Batch Delete</a></li>  <li> <a id="dt-btnBatchOutScan" onclick="JSBatchOutScan.ShowModal();">Batch OutScan</a></li>  <li> <a id="dt-btnBatchInScan" onclick="JSBatchInScan.ShowModal();">Batch InScan</a></li>  <li> <a id="dt-btnAssignRack" onclick="JSBatchAssignRack.ShowModal();">Batch Assign Rack</a></li>  </ul> </div> <div id="btnManifest" style="" class="btn btn-default" onclick="JSAllShipments.Manifest();">Download Manifest</div></div></div></div><div class="dataTables_scroll"><div class="dataTables_scrollHead" style="overflow: hidden; position: relative; border: 0px; width: 100%;"><div class="dataTables_scrollHeadInner" style="box-sizing: content-box; width: 996px; padding-right: 17px;">
 
 
 
              <?php
               $table_data = array();
               $_table_data = array(
-                
+                '<span class="hide"> - </span><div class="checkbox mass_select_all_wrap"><input type="checkbox" id="mass_select_all" data-to-table="clients"><label></label></div>',
                 array(
                  'name'=>_l('TrackingNo'),
                  'th_attrs'=>array('class'=>'toggleable', 'id'=>'th-TrackingNo')
                ),
                 array(
-                 'name'=>_l('Warehouse Name'),
+                 'name'=>_l('Date'),
                  'th_attrs'=>array('class'=>'toggleable', 'id'=>'th-Warehouse')
                ),
                 array(
@@ -67,25 +78,15 @@
                  'th_attrs'=>array('class'=>'toggleable', 'id'=>'th-Shipper')
                ),
                 array(
-                 'name'=>_l('Driver Name'),
+                 'name'=>_l('Phone'),
                  'th_attrs'=>array('class'=>'toggleable', 'id'=>'th-Driver')
                ),
-                array(
-                 'name'=>_l('LocationTo'),
-                 'th_attrs'=>array('class'=>'toggleable', 'id'=>'th-LocationTo')
-               ),
+             
                  array(
                  'name'=>_l('Receiver Name'),
                  'th_attrs'=>array('class'=>'toggleable', 'id'=>'th-Receiver')
                ),
-                 array(
-                 'name'=>_l('CostOfGoods'),
-                 'th_attrs'=>array('class'=>'toggleable', 'id'=>'th-CostOfGoods')
-               ),
-                 array(
-                 'name'=>_l('Delivery Date'),
-                 'th_attrs'=>array('class'=>'toggleable', 'id'=>'th-Delivery')
-               ),
+
                  array(
                  'name'=>_l('STATUS'),
                  'th_attrs'=>array('class'=>'toggleable', 'id'=>'th-STATUS')
@@ -96,18 +97,13 @@
                 array_push($table_data,$_t);
               }
 
-              $table_data = hooks()->apply_filters('shipment_details_op_table_columns', $table_data);
+              //$table_data = hooks()->apply_filters('dashboard_operations_table_columns', $table_data);
+              //$table_data = hooks()->apply_filters('shipment_details_op_table_columns', $table_data);
 
-              render_datatable($table_data,'shipment_details_op',[],[
-               'data-last-order-identifier' => 'shipment_details_op',
-               'data-default-order'         => get_table_last_order('shipment_details_op'),
-             ]);
+              render_datatable($table_data,'dashboard_operations',[],[
+                'data-last-order-identifier' => 'dashboard_operations'
+              ]);
              ?>
-
-
-
-
-
 
 
         </div></div></div></div>
@@ -1504,10 +1500,20 @@
    </div>
    <?php init_tail(); ?>
    <script>
-    $(function(){
-    
-      
+
+$(function(){
+    var driversServerParams = {};
+    $.each($('._hidden_inputs._filters input'),function(){
+      driversServerParams[$(this).attr('name')] = '[name="'+$(this).attr('name')+'"]';
     });
+    driversServerParams['exclude_inactive'] = '[name="exclude_inactive"]:checked';
+    var tAPI = initDataTable('.table-dashboard_operations',  admin_url+'shipment_details/table', [0], [0], driversServerParams,<?php echo hooks()->apply_filters('customers_table_default_order', json_encode(array(2,'asc'))); ?>);
+    $('input[name="exclude_inactive"]').on('change',function(){
+      tAPI.ajax.reload();
+    });
+  });
+
+
 </script>
 </body>
 </html>

@@ -16,6 +16,8 @@ class Shipment_details extends AdminController {
 
         $data['title'] = _l('shipment_details');
 
+        
+
         $this->load->view('admin/shipment_details/manage', $data);
     }
 
@@ -42,16 +44,25 @@ class Shipment_details extends AdminController {
         $this->load->view('admin/shipment_details/place_order', $data);
     }
 
+    
+    public function table()
+    {
+       
+        $this->app->get_table_data('dashboard_operations');
+    }
+
+
     public function operation_dashboard()
     {
         $data['title'] = _l('Orders');
+
+        // $data['orders']= $this->shipment_details_model->all_orders();
 
         $this->load->view('admin/shipment_details/operation_dashboard', $data);
     }
 
     public function save_order()
     {
-        
         $orderdata = array(
             'shipper_ref' => $this->input->post('shipper_ref', TRUE),
             'reference_number' => $this->input->post('reference_number', TRUE),
@@ -100,8 +111,7 @@ class Shipment_details extends AdminController {
         // print_r($data["place_orders"]);exit;
      
         $this->load->view('admin/shipment_details/place_order', $data);
-
-       
+ 
     }
 
     public function get_order_data(){
@@ -110,14 +120,66 @@ class Shipment_details extends AdminController {
 
         $id = $this->input->post('tracking_number', TRUE);
 
+        $getId=$this->shipment_details_model->get_order_id( $id)[0];
+
         $data['edit']="edit";
 
-        $data["client"]= $this->shipment_details_model->getOrders($id);
+        $data['idd']= $getId['id'];
+        $data['id']=$id;
+
+
+        $data["client"]= $this->shipment_details_model->getOrders($id)[0];
         
-    
+        //  print_r(  $data["client"]);exit;
+        $data['shippers']=$this->shipment_details_model->getShippers();
+
+        $data['countries'] = get_all_countries();
      
         $this->load->view('admin/shipment_details/place_order', $data);
 
+    }
+
+    public function update_order(){
+      
+
+        $orderdata = array(
+            'id' => $this->input->post('id', TRUE),
+
+            'shipper_ref' => $this->input->post('shipper_ref', TRUE),
+            'reference_number' => $this->input->post('reference_number', TRUE),
+            'order_date' => $this->input->post('order_date', TRUE),
+            'service_type' => $this->input->post('service_type', TRUE),
+            'shipper_code' => $this->input->post('shipper_code', TRUE),
+            'shipper_name' => $this->input->post('shipper_name', TRUE),
+            'shipper_phone' => $this->input->post('shipper_phone', TRUE),
+            'package_type' => $this->input->post('package_type', TRUE),
+            'reciever_name' => $this->input->post('reciever_name', TRUE),
+            'mobile_1' => $this->input->post('mobile_1', TRUE),
+            'mobile_2' => $this->input->post('mobile_2', TRUE),
+
+            'cod' => $this->input->post('cod', TRUE),
+            'instruction' => $this->input->post('instruction', TRUE),
+            'description' => $this->input->post('description', TRUE),
+            'country_id' => $this->input->post('country_id', TRUE),
+            'city' => $this->input->post('city', TRUE),
+            'area' => $this->input->post('area', TRUE),
+
+            'street' => $this->input->post('street', TRUE),
+            'no_of_piece' => $this->input->post('no_of_piece', TRUE),
+            'cod_status' => $this->input->post('cod_status', TRUE),
+            'cod_amount' => $this->input->post('cod_amount', TRUE),
+            // 'tracking_number' => $this->input->post('tracking_number', TRUE),
+
+        );
+
+        $this->shipment_details_model->update_orders($orderdata);
+
+        redirect('admin/shipment_details/place_order');
+        // $orderdata =  $this->input->post();
+
+        // // print_r( $orderdata );exit;
+
+        // $this->Shipper_detail_model->update_orders( $orderdata);
     }
 
     public function update_status(){

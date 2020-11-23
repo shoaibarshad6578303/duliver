@@ -293,6 +293,8 @@ function get_null_columns_that_should_be_sorted_as_last()
  */
 function render_datatable($headings = [], $class = '', $additional_classes = [''], $table_attributes = [])
 {
+
+  
     $_additional_classes = '';
     $_table_attributes   = ' ';
     if (count($additional_classes) > 0) {

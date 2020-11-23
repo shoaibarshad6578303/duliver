@@ -35,8 +35,6 @@ public function get_generated_id()
 
     public function get_user($user_id)
     {
-        
-      
         $this->db->select('*')->from(db_prefix() . 'contacts')->where("userid", $user_id);
         
         $query = $this->db->get();
@@ -48,14 +46,12 @@ public function get_generated_id()
     public function edit_shipper_detail($id)
     {
         
-
         $this->db->select('*');
         $this->db->where('id',$id);
         $employees = $this->db->get(db_prefix() . 'shipper_detail');
 
         return $employees->result_array();
         // exit;
-
 
     }
 
