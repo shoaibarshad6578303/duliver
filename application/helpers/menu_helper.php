@@ -6,28 +6,28 @@ function app_init_admin_sidebar_menu_items()
 {
     $CI = &get_instance();
 
-    $CI->app_menu->add_sidebar_menu_item('dashboard', [
-        'name'     => _l('Admin'),
-        'href'     => admin_url(),
-        'position' => 1,
-        'icon'     => 'fa fa-home',
-    ]);
-    $CI->app_menu->add_sidebar_children_item('dashboard', [
-                'slug'     => 'logout',
-                'name'     => _l('Logout'),
-                'href'     => admin_url('authentication/logout'),
-                'position' => 5,
-                'icon'  => 'fa fa-sign-out'
-        ]);
+//     $CI->app_menu->add_sidebar_menu_item('dashboard', [
+//         'name'     => _l('Admin'),
+//         'href'     => admin_url(),
+//         'position' => 1,
+//         'icon'     => 'fa fa-home',
+//     ]);
+//     $CI->app_menu->add_sidebar_children_item('dashboard', [
+//                 'slug'     => 'logout',
+//                 'name'     => _l('Logout'),
+//                 'href'     => admin_url('authentication/logout'),
+//                 'position' => 5,
+//                 'icon'  => 'fa fa-sign-out'
+//         ]);
 
-    $CI->app_menu->add_sidebar_menu_item('human-resource', [
+    $CI->app_menu->add_sidebar_menu_item('dashboard', [
         'name'     => _l('Human Resource'),
         'href'     => admin_url('clients'),
         'position' => 1,
         'icon'     => 'fa fa-users',
     ]);
 
-    $CI->app_menu->add_sidebar_children_item('human-resource', [
+    $CI->app_menu->add_sidebar_children_item('dashboard', [
                 'slug'     => 'employees',
                 'name'     => _l('Employees'),
                 'href'     => admin_url('employees'),
@@ -35,7 +35,7 @@ function app_init_admin_sidebar_menu_items()
                 'icon'  => 'fa fa-users'
         ]);
 
-$CI->app_menu->add_sidebar_children_item('human-resource', [
+$CI->app_menu->add_sidebar_children_item('dashboard', [
                 'slug'     => 'drivers',
                 'name'     => _l('Drivers'),
                 'href'     => admin_url('drivers'),
@@ -44,7 +44,7 @@ $CI->app_menu->add_sidebar_children_item('human-resource', [
         ]);
         
 
-$CI->app_menu->add_sidebar_children_item('human-resource', [
+$CI->app_menu->add_sidebar_children_item('dashboard', [
                 'slug'     => 'add-employee',
                 'name'     => _l('Add Employee'),
                 'href'     => admin_url('employees/employee'),

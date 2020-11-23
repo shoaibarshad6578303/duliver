@@ -5,6 +5,12 @@
    foreach($shippers as $key => $shipper):
       $e_data[$shipper->shipper_code] = $shipper;
    endforeach; 
+
+//    foreach($place_orders as $key => $place_order):
+//     $place_order_data[$place_order->shipper_code] = $place_order;
+//    endforeach; 
+
+
    ?>
 
    var shippers = '<?=json_encode($e_data);?>';
@@ -29,6 +35,8 @@
             <div class="">
          
             <?php if(isset($edit)) {?>
+               
+
             <div class="row">
                 <div class="col-sm-3">
                     <div class="form-group">
@@ -36,6 +44,7 @@
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-slack fa-md fa-fw"></i></span>
                             <input class="form-control" type="text" placeholder="123..." title="Search" id="txtSearch">
+
                         </div>
                     </div>
                 </div>
@@ -60,6 +69,7 @@
 <?php if(isset($id)) {?>
     <input type="hidden" value="<?php echo $id; ?>" name="id">
     <?php } ?> 
+    <input name="tracking_number" type="hidden"  id="tracking_number" value="<?php echo $tracking_number; ?>">
 
                     <div class="row">
                         <div class="col-sm-3">

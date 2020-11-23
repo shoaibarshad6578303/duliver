@@ -26,6 +26,17 @@ class Shipment_details extends AdminController {
 
         $data['shippers']=$this->shipment_details_model->getShippers();
 
+        $result = $this->shipment_details_model->get_generated_id();
+        $id = (isset($result[0]['shipper_code'])) ? $result[0]['tracking_number'] : '';
+        if ($id != '') {
+            $memberid = $id;
+            $num = preg_replace('/\D/', '', $memberid);
+            $number=8;
+            $data['tracking_number'] = sprintf($number, str_pad($num + 1, "6", "0", STR_PAD_LEFT));
+        } else {
+            $data['tracking_number'] = '8000001';
+        }
+
         $data['countries'] = get_all_countries();
 
         $this->load->view('admin/shipment_details/place_order', $data);
@@ -66,12 +77,13 @@ class Shipment_details extends AdminController {
             'no_of_piece' => $this->input->post('no_of_piece', TRUE),
             'cod_status' => $this->input->post('cod_status', TRUE),
             'cod_amount' => $this->input->post('cod_amount    ', TRUE),
+            'tracking_number' => $this->input->post('tracking_number   ', TRUE),
 
         );
 
         $this->shipment_details_model->save_orders($orderdata);
 
-        redirect('admin/shipment_details/');
+        redirect('admin/shipment_details/place_order');
     }
 
     public function edit_order(){
@@ -83,10 +95,12 @@ class Shipment_details extends AdminController {
         $data['countries'] = get_all_countries();
         
         $data['edit']="edit";
+
+        $data["place_orders"]= $this->shipment_details_model->getOrders();
      
         $this->load->view('admin/shipment_details/place_order', $data);
         
-
+       
     }
 
     public function update_status(){

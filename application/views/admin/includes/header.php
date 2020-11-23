@@ -1,19 +1,19 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
-ob_start();
+// ob_start();
 ?>
-<li id="top_search" class="dropdown" data-toggle="tooltip" data-placement="bottom" data-title="<?php echo _l('search_by_tags'); ?>">
+<!-- <li id="top_search" class="dropdown" data-toggle="tooltip" data-placement="bottom" data-title="<?php echo _l('search_by_tags'); ?>">
    <input type="search" id="search_input" class="form-control" placeholder="<?php echo _l('top_search_placeholder'); ?>">
    <div id="search_results">
    </div>
-   <!-- <ul class="dropdown-menu search-results animated fadeIn no-mtop search-history" id="search-history">
-   </ul> -->
+   <ul class="dropdown-menu search-results animated fadeIn no-mtop search-history" id="search-history">
+   </ul>
 </li>
 <li id="top_search_button">
    <button class="btn"><i class="fa fa-search"></i></button>
-</li>
+</li> -->
 <?php
-$top_search_area = ob_get_contents();
-ob_end_clean();
+// $top_search_area = ob_get_contents();
+// ob_end_clean();
 ?>
 <div id="header">
    <div class="hide-menu"><i class="fa fa-align-left"></i></div>
@@ -50,7 +50,7 @@ ob_end_clean();
          <div class="mobile-navbar collapse" id="mobile-collapse" aria-expanded="false" style="height: 0px;" role="navigation">
             <ul class="nav navbar-nav">
                <li class="header-my-profile"><a href="<?php echo admin_url('profile'); ?>"><?php echo _l('nav_my_profile'); ?></a></li>
-               <li class="header-my-timesheets"><a href="<?php echo admin_url('staff/timesheets'); ?>"><?php echo _l('my_timesheets'); ?></a></li>
+               <!-- <li class="header-my-timesheets"><a href="<?php echo admin_url('staff/timesheets'); ?>"><?php echo _l('my_timesheets'); ?></a></li> -->
                <li class="header-edit-profile"><a href="<?php echo admin_url('staff/edit_profile'); ?>"><?php echo _l('nav_edit_profile'); ?></a></li>
                <?php if(is_staff_member()){ ?>
                   <li class="header-newsfeed">
@@ -66,7 +66,7 @@ ob_end_clean();
    <ul class="nav navbar-nav navbar-right">
       <?php
       if(!is_mobile()){
-       echo $top_search_area;
+      //  echo $top_search_area;
     } ?>
     <?php hooks()->do_action('after_render_top_search'); ?>
     
@@ -126,7 +126,7 @@ ob_end_clean();
    <ul>
       <?php
       if(is_mobile()){
-       echo $top_search_area;
+      //  echo $top_search_area;
     } ?>
  </ul>
 </div>

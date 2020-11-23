@@ -6,8 +6,10 @@
       <div class="col-md-12">
         <div class="panel_s">
           <div class="panel-body">
-            <div class="_buttons">
-
+          <div class="_buttons">
+            <a href="<?=admin_url('employees/employee')?>" class="btn btn-primary pull-right" >
+            Add Employee
+           </a>
               <div class="visible-xs">
                 <div class="clearfix"></div>
               </div>

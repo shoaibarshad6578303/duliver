@@ -31,7 +31,6 @@ public function add()
     $result = $this->Shipper_detail_model->get_generated_id();
     $id = (isset($result[0]['shipper_code']))?$result[0]['shipper_code']:'';
     if($id != '')
-
     {
         $memberid = $id;
         $num = preg_replace('/\D/', '',$memberid);
