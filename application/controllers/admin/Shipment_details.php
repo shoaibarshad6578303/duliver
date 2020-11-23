@@ -105,13 +105,16 @@ class Shipment_details extends AdminController {
     }
 
     public function get_order_data(){
+
         $data['title'] = _l('Edit Order');
 
-        // echo "hello";exit;
         $id = $this->input->post('tracking_number', TRUE);
 
         $data['edit']="edit";
-        $data["clients"]= $this->shipment_details_model->getOrders($id);
+
+        $data["client"]= $this->shipment_details_model->getOrders($id);
+        
+    
      
         $this->load->view('admin/shipment_details/place_order', $data);
 

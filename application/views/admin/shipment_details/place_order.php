@@ -10,6 +10,8 @@
       $e_data[$shipper->shipper_code] = $shipper;
    endforeach; 
 
+//    print_r($client);exit;
+
 //    foreach($place_orders as $key => $place_order):
 //     $place_order_data[$place_order->tracking_number] = $place_order;
 //    endforeach; 
@@ -28,7 +30,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="panel-body _buttons">
-                    <h1><i class="fa fa-cube"></i>&nbsp;<?=$title;?></h1>
+                    <h1><i class="fa fa-cube"></i>&nbsp;<?=$title; ?></h1>
                     <div class="clearfix"></div>
                     <hr class="hr-panel-heading" />
                     <div class="row" id="contract_summary">
@@ -44,7 +46,7 @@
             <div class="row">
                 <div class="col-sm-3">
                     <div class="form-group">
-                        <label>Tracking No / Barcode</label> <i class="txt-color-red"></i>
+                        <label>Tracking No / Barcode </label> <i class="txt-color-red"></i>
                         <div class="input-group">
                             <span class="input-group-addon search_orders_input"><i class="fa fa-slack fa-md fa-fw"></i></span>
                             <input class="form-control" type="text" name="tracking_number" placeholder="123..." title="Search" id="txtSearch">
@@ -66,8 +68,6 @@
             ?>
             <?php } ?>
            
-
-
             <?php if(isset($id)) {?>
 
 <?php echo form_open_multipart('admin/shipment_details/update_order', array('id'=>'drivers-form','class'=>'drivers-form')); ?>
