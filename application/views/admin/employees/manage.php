@@ -86,6 +86,8 @@
       tAPI.ajax.reload();
     });
   });
+
+  
 </script>
 </body>
 </html>

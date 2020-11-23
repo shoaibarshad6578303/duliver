@@ -28,16 +28,22 @@ parent::__construct();
 
     public function save_orders( $orderdata)
     {
-        // print_r($orderdata);
-        // exit();
+
         $this->db->insert(db_prefix() . 'shipment_detail_orders', $orderdata);
-        
         return;
     }
 
-    public function getOrders(){
-        $row=$this->db->get(db_prefix() . 'shipment_detail_orders');
-        return $row->result();
+    public function getOrders($id){
+        // $row=$this->db->get(db_prefix() . 'shipment_detail_orders');
+        // return $row->result();
+
+        // print_r("hello");exit;
+
+        $this->db->select('*')->from(db_prefix() . 'shipment_detail_orders')->where("tracking_number", $id);
+        
+        $query = $this->db->get();
+        
+        return $query->result_array();
 
     }
 

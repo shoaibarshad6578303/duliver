@@ -1,20 +1,23 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
 <script>
 <?php 
+
+   
    $e_data = array();
+   $place_order_data = array();
+
    foreach($shippers as $key => $shipper):
       $e_data[$shipper->shipper_code] = $shipper;
    endforeach; 
 
 //    foreach($place_orders as $key => $place_order):
-//     $place_order_data[$place_order->shipper_code] = $place_order;
+//     $place_order_data[$place_order->tracking_number] = $place_order;
 //    endforeach; 
 
-
-   ?>
-
+?>
+  
+//   var place_order = '<?=json_encode($place_order_data);?>';
    var shippers = '<?=json_encode($e_data);?>';
-   console.log(shippers);
 
 </script>
 
@@ -36,14 +39,15 @@
          
             <?php if(isset($edit)) {?>
                
-
+                <?php echo form_open('admin/shipment_details/get_order_data', array('id'=>'drivers-form','class'=>'drivers-form')); ?>
+         
             <div class="row">
                 <div class="col-sm-3">
                     <div class="form-group">
                         <label>Tracking No / Barcode</label> <i class="txt-color-red"></i>
                         <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-slack fa-md fa-fw"></i></span>
-                            <input class="form-control" type="text" placeholder="123..." title="Search" id="txtSearch">
+                            <span class="input-group-addon search_orders_input"><i class="fa fa-slack fa-md fa-fw"></i></span>
+                            <input class="form-control" type="text" name="tracking_number" placeholder="123..." title="Search" id="txtSearch">
 
                         </div>
                     </div>
@@ -52,12 +56,17 @@
                     <div class="form-group">
                         <label>&nbsp;</label>
                         <div class="input-group">
-                            <button class="btn btn-primary" id="btnSearch">Search</button>
+                            <button type="submit" class="btn btn-primary search_orders" id="btnSearch">Search</button>
                         </div>
                     </div>
                 </div>
             </div>
+            <?php 
+             echo form_close();
+            ?>
             <?php } ?>
+           
+
 
             <?php if(isset($id)) {?>
 
@@ -69,15 +78,14 @@
 <?php if(isset($id)) {?>
     <input type="hidden" value="<?php echo $id; ?>" name="id">
     <?php } ?> 
-    <input name="tracking_number" type="hidden"  id="tracking_number" value="<?php echo $tracking_number; ?>">
-
+    <input name="tracking_number" type="hidden"  id="tracking_number" value="<?php if (isset($tracking_number)) echo $tracking_number; ?>">
                     <div class="row">
                         <div class="col-sm-3">
                             <div class="form-group">
                                 <label>Shipper Ref (optional)</label> <i class="txt-color-red"></i>
                                 <div class="input-group">
                                     <span class="input-group-addon"><i class="fa fa-slack fa-md fa-fw"></i></span>
-                                    <input class="form-control input-md" placeholder="BarCode" value="<?=isset($client) ? $client['shipper_ref'] : ''  ?>" type="text" name="shipper_ref" id="txtBarCode" 1"="" autofocus="" tabindex="1">
+                                    <input class="form-control input-md" placeholder="BarCode" value="<?=isset($client) ? $client['shipper_ref'] : ''  ?>" type="text" name="shipper_ref" id="shipper_ref" 1"="" autofocus="" tabindex="1">
                                 </div>
                             </div>
                         </div>
@@ -436,7 +444,6 @@
    <?php init_tail(); ?>
    <script>
     $(document).on('change','.select_shipper', function(){
-      
       var id=$('.select_shipper').val();
       let employee_array = JSON.parse(shippers);
       var name= employee_array[id]['trade_name'];
@@ -448,6 +455,13 @@
      
   
      });
+
+    //  $(document).on('click','.search_orders', function(){
+    //     var tracking_number=$('.search_orders_input').val();
+    //     let place_array=JSON.parse(place_order_data);
+        
+    //  });
+
 </script>
 </body>
 </html>

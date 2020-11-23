@@ -40,7 +40,7 @@ public function get_generated_id()
         $this->db->select('*')->from(db_prefix() . 'contacts')->where("userid", $user_id);
         
         $query = $this->db->get();
-        // print_r($query->result_array());exit;
+        
         return $query->result_array();
         
     }

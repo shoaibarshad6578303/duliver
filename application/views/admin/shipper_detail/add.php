@@ -161,12 +161,19 @@
             </div>
         </div>
         <div class="col-sm-3">
-            <div id="divUploadedFile" class="row">
-                <div class="col-sm-12 pull-right">
-                                <input type="file" name="image" id="UploadedFile">
-                      
-                </div>
-            </div>
+        <div class="form-group">
+<label for="emirate_id">Image</label>
+<div>
+<div id='img_contain' style="
+text-align: center;
+width: 100%;
+height: 200px;
+"><img id="blah" align='middle' src="<?=isset($client)?$client['image']:'http://www.clker.com/cliparts/c/W/h/n/P/W/generic-image-file-icon-hi.png';?>" alt="your image" title='' width="150" /></div>
+
+
+<input type="file" name="image" id="image" value="" class="form-control" required>
+</div>
+</div>
         </div>
     </div>
 </div>
@@ -496,7 +503,37 @@
    <?php init_tail(); ?>
    <script>
     $(function(){
-   
+     
+        $("#image").change(function(event) {
+RecurFadeIn();
+readURL(this);
+});
+// $("#inputGroupFile01").on('click',function(event){
+// RecurFadeIn();
+// });
+function readURL(input) {
+if (input.files && input.files[0]) {
+var reader = new FileReader();
+// var filename = $("#inputGroupFile01").val();
+// filename = filename.substring(filename.lastIndexOf('\\')+1);
+reader.onload = function(e) {
+$('#blah').attr('src', e.target.result);
+$('#blah').hide();
+$('#blah').fadeIn(500);
+// $('.custom-file-label').text(filename);
+}
+reader.readAsDataURL(input.files[0]);
+}
+$(".alert").removeClass("loading").hide();
+}
+function RecurFadeIn(){
+console.log('ran');
+FadeInAlert("Wait for it...");
+}
+function FadeInAlert(text){
+$(".alert").show();
+$(".alert").text(text).addClass("loading");
+}
       
     });
 </script>
