@@ -294,9 +294,17 @@ class Shipment_details extends AdminController {
         fclose($myfile);
         
         $data['place_orders']= $place_orders;
-        // exit;
-        $this->load->view('admin/shipment_details/uploading_shipment_table',$data);
 
+        // echo count($data['place_orders']['shipper_name']);
+        // exit;
+
+        // print_r( $data['place_orders']['shipper_name'][0]);
+        // exit;
+
+        
+
+        $view=$this->load->view('admin/shipment_details/uploading_shipment_table',$data,true);
+        print_r($view);exit;
         // return json_encode($place_orders);
         // redirect('admin/shipment_details/update_status');
     }

@@ -1,5 +1,6 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
 <?php init_head(); ?>
+<script type="text/javascript">var cities = '<?=json_encode($cities)?>';</script>
 <div id="wrapper">
     <div class="content">
         <div class="row">
@@ -48,9 +49,104 @@
            </div>
        </div>
    </div>
+
+   <div class="modal" id="rate_modal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Shipping Rates</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div>
+          <div>
+            <input type="number" name="default_rate" id="default_rate" value="0">
+            <input type="button" name="set_default_value" value="Set Default" id="set_default_value">
+          </div>
+          <div class="form-group">
+            <select class="form-control" name="city" id="city">
+
+              <?php
+
+              foreach ($cities as $key => $value) {
+                  
+                    echo '<option value="'.$key.'">'.$value.'</option>';
+
+              }
+
+              ?>
+              
+            </select>
+            <input type="number" name="city_value">
+            <input type="hidden" name="shipper_id_modal" value="" id="shipper_id_modal">
+            <input type="button" name="set_city_value" value="Set Rate" id="set_city_value">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
    <?php init_tail(); ?>
    <script>
     $(function(){
+
+
+
+
+
+
+        $(document).on('click','#set_default_value',function(){
+
+
+          var city_rate = {};
+          $("#city option").each(function()
+          {
+
+              city_rate[$(this).val()] = $('#default_rate').val();
+          
+          });
+
+           $.ajax({
+        url: '<?=admin_url()?>/shipper_detail/set_shipper_rates',
+        type: "POST",
+        data: {'shipper_id':$('#shipper_id_modal').val(),'cities_rate':city_rate},
+        success: function (response) {            
+
+            console.log(response);
+
+        }
+        });
+
+
+
+        });
+
+      $(document).on('click','.rate_modal',function(){
+
+
+        var id = $(this).attr('id');
+
+        $.ajax({
+        url: '<?=admin_url()?>/shipper_detail/get_shipper_rates?shipper_id='+id,
+        type: "GET",
+          dataType: 'JSON',
+        success: function (response) {
+
+            // var rate = JSON.parse(response);
+            $('#rate_modal').toggle('open');
+            $('#shipper_id_modal').val(id);
+        }
+        });
+
+
+
+
+      });
+
+
     var driversServerParams = {};
     $.each($('._hidden_inputs._filters input'),function(){
       driversServerParams[$(this).attr('name')] = '[name="'+$(this).attr('name')+'"]';

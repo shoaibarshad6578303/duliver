@@ -8,55 +8,70 @@ defined('BASEPATH') or exit('No direct script access allowed');
  */
 function get_all_countries()
 {
-    // $countries = array(
-// "1" => array(
-// "name" => "Dubai",
-// "cities" => array(
-// "1" => array(
-// "name" => "Dub ABC",
-// "areas" => array(
-// "1" => "Area ABC",
-// "2" => "Area XYZ",
-// ),
-// ),
-// "2" => array(
-// "name" => "Dub XYZ",
-// "areas" => array(
-// "1" => "Area ABC",
-// "2" => "Area XYZ",
-// ),
-// ),
-// ),
-// ),
-// "2" => array(
-// "name" => "Abu Dabhi",
-// "cities" => array(
-// "1" => array(
-// "name" => "abu ABC",
-// "areas" => array(
-// "1" => "Area ABC",
-// "2" => "Area XYZ",
-// ),
-// ),
-// "2" => array(
-// "name" => "Dub XYZ",
-// "areas" => array(
-// "1" => "Area ABC",
-// "2" => "Area XYZ",
-// ),
-// ),
+    $countries = array(
+"1" => array(
+"name" => "Dubai",
+"cities" => array(
+"1" => array(
+"name" => "Dub ABC",
+"areas" => array(
+"1" => "Area ABC",
+"2" => "Area XYZ",
+),
+),
+"2" => array(
+"name" => "Dub XYZ",
+"areas" => array(
+"1" => "Area ABC",
+"2" => "Area XYZ",
+),
+),
+),
+),
+"2" => array(
+"name" => "Abu Dabhi",
+"cities" => array(
+"1" => array(
+"name" => "abu ABC",
+"areas" => array(
+"1" => "Area ABC",
+"2" => "Area XYZ",
+),
+),
+"2" => array(
+"name" => "Dub XYZ",
+"areas" => array(
+"1" => "Area ABC",
+"2" => "Area XYZ",
+),
+),
 
-// ),
-// ),
-// );
-// return $countries;
-    return hooks()->apply_filters('all_countries', get_instance()->db->order_by('short_name', 'asc')->get(db_prefix().'countries')->result_array());
+),
+),
+);
+return $countries;
+    // return hooks()->apply_filters('all_countries', get_instance()->db->order_by('short_name', 'asc')->get(db_prefix().'countries')->result_array());
 }
 /**
  * Get country row from database based on passed country id
  * @param  mixed $id
  * @return object
  */
+
+function get_cities()
+{
+    $cities = array(
+
+        "1" => "Dub ABC",
+        "2" => "Dub XYZ",
+        "3" => "ABU ABC",
+        "4" => "ABU XYZ",
+
+    );
+    return $cities;
+}
+
+
 function get_country($id)
 {
     $CI = & get_instance();

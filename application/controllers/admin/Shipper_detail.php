@@ -87,8 +87,31 @@ public function rate()
 
 $data = array();
 $data['title'] = _l('Shipper Rate');
+$data['cities'] = get_cities();
+
 
 $this->load->view('admin/shipper_detail/rate', $data);
+
+}
+
+
+public function set_shipper_rates()
+{
+$arr = $this->Shipper_detail_model->setShipperRates($this->input->post('shipper_id'),$this->input->post('cities_rate'));
+$response = json_encode($arr);
+print_r($arr);
+exit;
+
+}
+
+
+public function get_shipper_rates()
+{
+
+$arr = $this->Shipper_detail_model->getShipperRates($this->input->get('shipper_id'));
+$response = json_encode($arr[0]);
+print_r($response);
+exit;
 
 }
 

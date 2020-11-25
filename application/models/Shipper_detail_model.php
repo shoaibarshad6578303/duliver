@@ -116,9 +116,25 @@ public function get_generated_id()
     
 
 
-    
+    public function getShipperRates($id)
+    {
+
+        $row = $this->db->select("rate")->where('id =',$id )->get(db_prefix() . 'shipper_detail');
+        return $row->result_array();
 
 
+    }
+
+    public function setShipperRates($id,$rates)
+    {
+
+        $update = array('rate' => json_encode($rates));
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix() . 'shipper_detail',$update);
+        return 'success';
+
+
+    }
     
 
 

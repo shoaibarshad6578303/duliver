@@ -62,9 +62,26 @@
     </div>
 
 
-    <div class="shipments_order_table">
-             Hldlldllllllllllllllllllllllllllllllllll
+    <div class="row"
+    <div class="col-md-12">
+    <table class="table table-border">
+    <thead>
+        <th>Shipper Name</th>
+        <th>Shipper Phone</th>
+        <th>Reciever Name</th>
+        <th>Description</th>
+        <th>Instruction</th>
+        <th>No of pieces</th>
+        <th>Amount</th>
+        
+    </thead>
+    <tbody class="shipments_order_table">
+    </tbody>
+    </table>
     </div>
+    </div>
+
+
 
 
 <div class="container" style="width:40% ; margin-top:2%">
@@ -439,7 +456,7 @@
    <script>
      $(document).ready(function(){
    $('#import_form').submit(function(e){
-            // e.preventDefault(); 
+            e.preventDefault(); 
                  $.ajax({
                      url: '<?php echo admin_url();?>shipment_details/save_import_file',
                     //  url:'save_import_file',
@@ -459,7 +476,8 @@
                    
                  });
 
-                 $('#PlaceOrderFileModal').modal('close');
+                 $('#PlaceOrderFileModal').modal('toggle');
+                //  $('#PlaceOrderFileModal').modal('close');
             });
 
         });
