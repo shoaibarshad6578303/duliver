@@ -105,7 +105,6 @@
               ]);
              ?>
 
-
         </div></div></div></div>
     </div>
     <!-- end widget content -->
@@ -1512,7 +1511,6 @@ $(function(){
       tAPI.ajax.reload();
     });
   });
-
 
 </script>
 </body>

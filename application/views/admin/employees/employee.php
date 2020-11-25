@@ -197,6 +197,7 @@ height: 200px;
 
 
 <input type="file" name="image" id="image" value="" class="form-control" required>
+
 </div>
 </div>
          </div>

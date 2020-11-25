@@ -67,6 +67,7 @@ $autoload['libraries'] = [
     'app',
     'gateways/app_gateway',
     'form_validation',
+    //  'Classes/PHPExcel/IOFactory.php',
     'email', // As last because it's using get_option via $this->app library
 ];
 
@@ -83,6 +84,8 @@ foreach ($gateways as $gateway) {
         array_push($autoload['libraries'], 'gateways/' . strtolower($pathinfo['filename']));
     }
 }
+
+
 /*
 | -------------------------------------------------------------------
 |  Auto-load Drivers

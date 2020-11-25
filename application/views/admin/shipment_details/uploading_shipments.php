@@ -13,7 +13,6 @@
                     <div class="col-sm-12">
             <div class="">
 
-
            <!-- start -->
            <div class="col-sm-12">
             <div class="">
@@ -25,7 +24,11 @@
                             <label>Shipper Code</label> <i class="fa fa-asterisk txt-color-red"></i>
                             <div class="input-group" id="divShipperCode">
                                 <span class="input-group-addon"><i class="fa fa-slack fa-md fa-fw"></i></span>
-                                <select class="form-control select2-hidden-accessible" id="ddlShipperCode" name="ddlShipperCode" tabindex="-1" aria-hidden="true">
+                                <select class="form-control" id="shipperCode" name="shipperCode" tabindex="-1" aria-hidden="true" >
+                                    <option> </option>
+                                    <?php foreach($shippers as $shipper) {?>
+                                    <option value="<?=  $shipper->shipper_code ?>"> <?=  $shipper->shipper_code .' | '. $shipper->trade_name ?> </option>
+                                    <?php } ?>
                                 </select>
                                 <!-- <span class="select2 select2-container select2-container--default" dir="ltr" style="width: 100%;"><span class="selection"><span class="select2-selection select2-selection--single" role="combobox" aria-haspopup="true" aria-expanded="false" tabindex="0" aria-labelledby="select2-ddlShipperCode-container"><span class="select2-selection__rendered" id="select2-ddlShipperCode-container"><span class="select2-selection__placeholder">Search a Shipper with name or Code</span></span><span class="select2-selection__arrow" role="presentation"><b role="presentation"></b></span></span></span><span class="dropdown-wrapper" aria-hidden="true"></span></span> -->
                             </div>
@@ -38,12 +41,14 @@
                 </div>
                 <div class="row">
                     <div class="container-fluid">
-    <button class="btn btn-primary" id="btnImport" onclick="JSBulkPlaceOrder.loadDataTable()" data-toggle="modal" data-target="#PlaceOrderFileModal">
+    <button class="btn btn-primary" id="btnImport" data-toggle="modal" data-target="#PlaceOrderFileModal">
         Import
     </button>
-    <a class="btn btn-link  btn-primary" style="cursor: pointer;" href="/Content/file/sample-operation.xlsx" target="_blank" title="Download Sample CSV file.">
+
+    <a class="btn btn-link  btn-primary" style="cursor: pointer;" href="<?php echo base_url();?>assets/file/samplefile.xlsx" target="_blank" title="Download Sample CSV file." download>
         <i class="fa fa-download"></i> Download Sample
     </a>
+
     <button class="btn btn-danger pull-right " style="display:none;" id="btnTableClear" title="Clear Table">
         Clear
     </button>
@@ -56,7 +61,11 @@
         </div>
     </div>
 
-    
+
+    <div class="shipments_order_table">
+             Hldlldllllllllllllllllllllllllllllllllll
+    </div>
+
 
 <div class="container" style="width:40% ; margin-top:2%">
     <div id="CreateOrderModal" class="modal fade">
@@ -370,24 +379,33 @@
                 </button>
                 <h4 class="modal-title" id="myModalLabel">Place Order From Excel File</h4>
             </div>
-            <div class="modal-body">
-                <form id="uploadFileForm">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div>
-                                <input id="file" name="file" type="file" value=""> <br>
-                                
-                            </div>
-
-                        </div>
-                        <div class="col-md-6">
-                            <a class="btn btn-primary pull-right" id="btnLoadFile" data-url="/shipment/getairwaybilllabelreportpdfbyshipmentids">
+            <?php $attributes = array('id' => 'import_form'); ?>
+                <?php echo form_open_multipart('#', array('id' => 'import_form')); ?>
+                <!-- <form enctype="multipart/form-data" class="form-horizontal" id="import_form"> -->
+                <input name="id" type="hidden" value="1">  
+                <div class="modal-body">
+                <!-- <form id="uploadFileForm"> -->
+                    <!-- <div class="row">
+                        <div class="col-md-6"> -->
+                            <!-- <div > -->
+                        
+                    <input  type="file" name="image" > 
+                    <br> 
+                            <!-- </div>
+                            </div> -->
+                        <!-- </div> -->
+                        <!-- <div class="col-md-6"> -->
+                            <button type="submit" class="btn btn-primary pull-right " id="btnLoadFile">
                                 load
-                            </a>
-                        </div>
+                            </button>
+                                    </br>
+                        <!-- </div> -->
                     </div>
-                </form>
+                   
+                <!-- </form> -->
             </div>
+            <!-- </form> -->
+            <?php echo form_close(); ?>
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
@@ -409,4 +427,65 @@
            </div>
        </div>
    </div>
+
+<!-- form open -->
+
+
+
+<!-- form close -->
+
    <?php init_tail(); ?>
+
+   <script>
+     $(document).ready(function(){
+   $('#import_form').submit(function(e){
+            // e.preventDefault(); 
+                 $.ajax({
+                     url: '<?php echo admin_url();?>shipment_details/save_import_file',
+                    //  url:'save_import_file',
+                     type:"post",
+                     data:new FormData(this),
+                     processData:false,
+                     contentType:false,
+                     cache:false,
+                     async:false,
+                    //  dataType: 'JSON',
+                      success: function(data){
+                        //   console.log("Hello world");
+                        $(".shipments_order_table").html(data);
+                        // $(".shipments_order_table").html(data);
+                        //   console.log(data.place_order);
+                   }
+                   
+                 });
+
+                 $('#PlaceOrderFileModal').modal('close');
+            });
+
+        });
+
+
+    // $(document).on('click', '#btnLoadFile', function() {
+    //     // console.log("hello world");
+    //     // $('#import_form').submit();
+    //     // console.log("hello world");
+
+    // //   var id=$(this).data("update");
+    // //   console.log(id);
+    // //   $('.update_status_id').val(id);
+    // //   $('#exampleModal').modal('show');
+
+    // $.ajax({
+    //     url: "save_import_file",
+    //     type: 'post',
+    //     data:new FormData(this),
+    //     data: $('#import_form').serialize(),
+    //     success: function(data) {
+    //      console.log("Hello world");
+        
+    //     }
+    //   });
+
+
+    // });
+   </script>

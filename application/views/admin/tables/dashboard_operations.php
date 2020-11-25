@@ -47,8 +47,12 @@ foreach ($rResult as $aRow) {
     $status="";
 
     if($aRow['status']==1){
-        $status="To be ready";
-    } 
+        $status="To be Ready";
+    } else if($aRow['status']==2){
+        $status="Picked";
+    }else if($aRow['status']==3){
+        $status="Delivered";
+    }
 
     $row[] =  $status;
    

@@ -5,12 +5,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 class shipment_details_model extends App_Model
 {
 
-public function __construct()
-{
-parent::__construct();
-
-
-}
+    public function __construct()
+    {
+        parent::__construct();
+    }
 
     public function get_all_entries()
     {
@@ -46,6 +44,8 @@ parent::__construct();
         return $query->result_array();
 
     }
+
+
    
 
     public function get_order_id($id){
@@ -86,5 +86,25 @@ parent::__construct();
         return $query->result_array();
     }
 
+    public function get_update_status_data($id)
+    {
+
+     
+      
+        $query =$this->db->select('*')->from(db_prefix() . 'shipment_detail_orders')->where("tracking_number", $id)->get();
+
+        // $query = $this->db->get();
+        return $query->result();
+    }
+     
+    
+
+    public function update_status_again($orderdata)
+    {
+        $id = $orderdata['id'];
+        $this->db->where('id', $id);
+        $this->db->update(db_prefix() . 'shipment_detail_orders', $orderdata);
+        return;
+    }
 
 }

@@ -8,6 +8,7 @@ class Shipment_details extends AdminController {
     {
         parent::__construct();
 
+        $this->load->helper(array('form', 'url'));
         $this->load->model('shipment_details_model');
     }
 
@@ -15,8 +16,6 @@ class Shipment_details extends AdminController {
     {
 
         $data['title'] = _l('shipment_details');
-
-        
 
         $this->load->view('admin/shipment_details/manage', $data);
     }
@@ -50,6 +49,12 @@ class Shipment_details extends AdminController {
        
         $this->app->get_table_data('dashboard_operations');
     }
+
+    public function shipment_update_status()
+    {
+        $this->app->get_table_data('shipment_update_status');
+    }
+
 
 
     public function operation_dashboard()
@@ -200,16 +205,108 @@ class Shipment_details extends AdminController {
     public function send_sms(){
        
         $data['title'] = _l('Send Sms');
-     
         $this->load->view('admin/shipment_details/send_sms', $data);
         
     }
 
     public function uploading_shipments(){
         $data['title'] = _l('Place Order By Uploading');
+
+        $data['shippers']=$this->shipment_details_model->getShippers();
+
+        // print_r($data['shippers']);
+        // exit();
+
         $this->load->view('admin/shipment_details/uploading_shipments', $data);
     }
 
+
+    public function get_update_status_data(){
+
+        $id = $this->input->post('id', TRUE);
+
+        
+        $data["orders"]= $this->shipment_details_model->get_update_status_data($id);
+
+
+        $this->load->view('admin/shipment_details/update_status_table', $data);
+    }
+
+    public function update_status_again()
+    {
+       
+
+        $updateData = $this->input->post();
+        $this->shipment_details_model->update_status_again($updateData);
+
+        redirect('admin/shipment_details/update_status');
+    }
+
+    public function do_upload()
+    {
+
+        $image = "";
+        $config['upload_path'] = 'uploads/file';
+        $config['allowed_types'] = 'csv';
+        // $config['max_size'] = '100';
+        // $config['max_width'] = '1024';
+        // $config['max_height'] = '768';
+        $config['overwrite'] = TRUE;
+        $config['encrypt_name'] = FALSE;
+        $config['remove_spaces'] = TRUE;
+        if (!is_dir($config['upload_path'])) mkdir( $config['upload_path']);
+        $this->load->library('upload', $config);
+        if (!$this->upload->do_upload('image')) {
+           echo $this->upload->display_errors();
+        } else {
+
+            $image = array('upload_data' => $this->upload->data());
+            return base_url($config['upload_path'] . '/' . $image['upload_data']['file_name']);
+        }
+    }
+
+    public function save_import_file(){
+
+        $image = $this->do_upload();
+        
+        $myfile = fopen( $image , "r") or die("Unable to open file!");
+     
+        $place_orders=[];
+        $i=0;
+        while (($line = fgetcsv($myfile)) !== FALSE) {
+          
+            
+            if($i>0){
+                $place_orders['shipper_name'][]=$line[0];
+                $place_orders['shipper_phone'][]=$line[1];
+                $place_orders['reciever_name'][]=$line[2];
+                $place_orders['description'][]=$line[3];
+                $place_orders['instruction'][]=$line[4];
+                $place_orders['no_of_pieces'][]= $line[5];
+                $place_orders['amount'] []= $line[6];
+            }
+            $i++;
+            // print_r($line[0]);
+         }
+         
+      
+
+        fclose($myfile);
+        
+        $data['place_orders']= $place_orders;
+        // exit;
+        $this->load->view('admin/shipment_details/uploading_shipment_table',$data);
+
+        // return json_encode($place_orders);
+        // redirect('admin/shipment_details/update_status');
+    }
+
+   
+    // public function temp(){
+    //     $image = $this->do_upload();
+    //     echo $image;
+    //     print_r($image); print_r("hello");exit;
+    // }
 
 
     

@@ -27,5 +27,6 @@
         "illuminate/pagination": "^5.4",
         "paypal/paypal-checkout-sdk": "1.0.1",
         "xemlock/htmlpurifier-html5": "^0.1.11"
+       
     }
 }

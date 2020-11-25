@@ -15,7 +15,6 @@ class Employees extends AdminController
         $data['employees'] = $this->employees_model->get();
         $data['title'] = 'employees';
 
-
         $this->load->view('admin/employees/manage', $data);
     }
 
@@ -23,6 +22,7 @@ class Employees extends AdminController
     {
         $this->app->get_table_data('employees');
     }
+
 
     public function employee()
     {
@@ -87,8 +87,6 @@ class Employees extends AdminController
             'termination_date' => $this->input->post('termination_date', TRUE),
             'user_status' => $this->input->post('user_status', TRUE),
             'image' => $image,
-
-
 
         );
 

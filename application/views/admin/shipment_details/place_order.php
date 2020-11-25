@@ -495,6 +495,7 @@
    </div>
    <?php init_tail(); ?>
    <script>
+       
     $(document).on('change','.select_shipper', function(){
       var id=$('.select_shipper').val();
       let employee_array = JSON.parse(shippers);
