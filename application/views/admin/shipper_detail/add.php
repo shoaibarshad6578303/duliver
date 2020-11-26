@@ -372,7 +372,7 @@ height: 200px;
                 <div class="input-group">
                     <span class="input-group-addon"><i class="fa fa-user fa-md fa-fw"></i></span>
                     <!-- <input type="password" style="display:none;"> -->
-                    <input type="email" class="form-control" placeholder="Username" name="user_name" id="user_name"  value="<?=isset($client) ? $client['user_name'] : ''  ?>">
+                    <input type="text" class="form-control" placeholder="Username" name="user_name" id="user_name"  value="<?=isset($client) ? $client['user_name'] : ''  ?>">
                 </div>
             </div>
         </div>

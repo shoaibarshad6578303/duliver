@@ -1,146 +1,157 @@
-<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if (!defined('BASEPATH')) exit('No direct script access allowed');
 
-class Shipper_detail extends AdminController {
-
-
-
-public function __construct() {
-parent::__construct();
-
-$this->load->model('Shipper_detail_model');
-}
-
-public function index()
+class Shipper_detail extends AdminController
 {
 
-$shipper_detail = $this->Shipper_detail_model->get_all_entries();
-$data = array();
-$data['shipper_detail'] = $shipper_detail;
-$data['title'] = _l('shipper_details');
 
-$this->load->view('admin/shipper_detail/manage', $data);
 
-}
-
-public function add()
-{
-    $data['employees']=$this->Shipper_detail_model->getEmployees();
-
-    $data['drivers']=$this->Shipper_detail_model->getDrivers();
-
-    $result = $this->Shipper_detail_model->get_generated_id();
-    $id = (isset($result[0]['shipper_code']))?$result[0]['shipper_code']:'';
-    if($id != '')
+    public function __construct()
     {
-        $memberid = $id;
-        $num = preg_replace('/\D/', '',$memberid);
-        $data['shipper_code'] = sprintf('Spr%s', str_pad($num + 1, "6", "0", STR_PAD_LEFT));
+        parent::__construct();
+
+        $this->load->model('Shipper_detail_model');
     }
-    else
+
+    public function index()
     {
-        $data['shipper_code'] = 'Spr000001';
+
+        $shipper_detail = $this->Shipper_detail_model->get_all_entries();
+        $data = array();
+        $data['shipper_detail'] = $shipper_detail;
+        $data['title'] = _l('shipper_details');
+
+        $this->load->view('admin/shipper_detail/manage', $data);
     }
-    $data['countries'] = get_all_countries();
-	$data['title'] = _l('Add Shipper');
 
-    $this->load->view('admin/shipper_detail/add', $data);
-}
+    public function add()
+    {
+        $data['employees'] = $this->Shipper_detail_model->getEmployees();
+
+        $data['drivers'] = $this->Shipper_detail_model->getDrivers();
+
+        $result = $this->Shipper_detail_model->get_generated_id();
+        $id = (isset($result[0]['shipper_code'])) ? $result[0]['shipper_code'] : '';
+        if ($id != '') {
+            $memberid = $id;
+            $num = preg_replace('/\D/', '', $memberid);
+            $data['shipper_code'] = sprintf('Spr%s', str_pad($num + 1, "6", "0", STR_PAD_LEFT));
+        } else {
+            $data['shipper_code'] = 'Spr000001';
+        }
+        $data['countries'] = get_all_countries();
+        $data['title'] = _l('Add Shipper');
+
+        $this->load->view('admin/shipper_detail/add', $data);
+    }
 
 
-public function edit($id){
+    public function edit($id)
+    {
 
-    $data['employees']=$this->Shipper_detail_model->getEmployees();
-    $data['drivers']=$this->Shipper_detail_model->getDrivers();
+        $data['employees'] = $this->Shipper_detail_model->getEmployees();
+        $data['drivers'] = $this->Shipper_detail_model->getDrivers();
         // echo "edit";
         // exit;
+
+        $data['data'] = $this->Shipper_detail_model->edit_shipper_detail($id);
+        $data['client'] = $data['data'][0];
+
+        $user_details = $this->Shipper_detail_model->get_user($id);
+        $data['client']['user_name'] = $user_details[0]['user_name'];
+        $data['client']['password'] = $user_details[0]['password'];
+        $data['title'] = 'Edit Shipper';
+        $data['shipper_code'] = $data['client']['shipper_code'];
+        $data['id'] = $id;
+        $data['countries'] = get_all_countries();
+
+        $this->load->view('admin/shipper_detail/add', $data);
+        //    $this->load->view('admin/employees/manage', $data);
+    }
+
+    public function table()
+    {
+
+        $this->app->get_table_data('shipper_detail');
+    }
+    public function rate_table()
+    {
+
+        $this->app->get_table_data('shipper_detail_rate');
+    }
+
+    public function rate()
+    {
+
+        $data = array();
+        $data['title'] = _l('Shipper Rate');
+        $data['cities'] = get_cities();
+
+
+        $this->load->view('admin/shipper_detail/rate', $data);
+    }
+
+
+    public function set_shipper_rates()
+    {
+        $arr = $this->Shipper_detail_model->setShipperRates($this->input->post('shipper_id'), $this->input->post('cities_rate'));
+        $response = json_encode($arr);
+        print_r($arr);
+        exit;
+    }
+
+
+    public function get_shipper_rates()
+    {
+        $arr = $this->Shipper_detail_model->getShipperRates($this->input->get('shipper_id'));
+        $response = json_encode($arr[0]);
+        // return  $response;
+
+        print_r($response);
+        exit;
+
+    }
+
+    public function update_one_city_value(){
+        // echo "hello";
+        // print_r($this->input->post('id',true));exit;
+
+        $rate=array(
+           'city' => $this->input->post('city',true),
+           'value' => $this->input->post('value',true),
+           'id' => $this->input->post('id',true),
+        );
         
-       $data['data']=$this->Shipper_detail_model->edit_shipper_detail($id);
-       $data['client']=$data['data'][0];
-      
-       $user_details = $this->Shipper_detail_model->get_user($id);
-       $data['client']['user_name'] = $user_details[0]['user_name'];
-       $data['client']['password'] = $user_details[0]['password'];
-       $data['title']='Edit Shipper';
-       $data['shipper_code'] = $data['client']['shipper_code'];
-       $data['id']=$id;
-       $data['countries'] = get_all_countries();
-       
-       $this->load->view('admin/shipper_detail/add', $data);
-    //    $this->load->view('admin/employees/manage', $data);
+        $this->Shipper_detail_model->update_one_city_value($rate);
+
+        print_r($rate);exit;
+        
     }
 
-public function table()
-{
+    public function do_upload()
+    {
 
- $this->app->get_table_data('shipper_detail');
+        $image = "";
+        $config['upload_path'] = 'uploads/shipper_detail';
+        $config['allowed_types'] = 'gif|jpg|png';
+        // $config['max_size'] = '100';
+        // $config['max_width'] = '1024';
+        // $config['max_height'] = '768';
+        $config['overwrite'] = TRUE;
+        $config['encrypt_name'] = FALSE;
+        $config['remove_spaces'] = TRUE;
+        if (!is_dir($config['upload_path'])) mkdir($config['upload_path']);
+        $this->load->library('upload', $config);
+        if (!$this->upload->do_upload('image')) {
+            //
+        } else {
 
-}
-public function rate_table()
-{
-
-   $this->app->get_table_data('shipper_detail_rate');
-
-}
-
-public function rate()
-{
-
-$data = array();
-$data['title'] = _l('Shipper Rate');
-$data['cities'] = get_cities();
-
-
-$this->load->view('admin/shipper_detail/rate', $data);
-
-}
-
-
-public function set_shipper_rates()
-{
-$arr = $this->Shipper_detail_model->setShipperRates($this->input->post('shipper_id'),$this->input->post('cities_rate'));
-$response = json_encode($arr);
-print_r($arr);
-exit;
-
-}
-
-
-public function get_shipper_rates()
-{
-
-$arr = $this->Shipper_detail_model->getShipperRates($this->input->get('shipper_id'));
-$response = json_encode($arr[0]);
-print_r($response);
-exit;
-
-}
-
-public function do_upload()
-{
-
-    $image = "";
-    $config['upload_path'] = 'uploads/shipper_detail';
-    $config['allowed_types'] = 'gif|jpg|png';
-    // $config['max_size'] = '100';
-    // $config['max_width'] = '1024';
-    // $config['max_height'] = '768';
-    $config['overwrite'] = TRUE;
-    $config['encrypt_name'] = FALSE;
-    $config['remove_spaces'] = TRUE;
-    if (!is_dir($config['upload_path'])) mkdir( $config['upload_path']);
-    $this->load->library('upload', $config);
-    if (!$this->upload->do_upload('image')) {
-        //
-    } else {
-
-        $image = array('upload_data' => $this->upload->data());
-        return base_url($config['upload_path'] . '/' . $image['upload_data']['file_name']);
+            $image = array('upload_data' => $this->upload->data());
+            return base_url($config['upload_path'] . '/' . $image['upload_data']['file_name']);
+        }
     }
-}
 
     public function save_shipper()
     {
-
         $image = $this->do_upload();
 
         $authdata = array(
@@ -164,6 +175,7 @@ public function do_upload()
             'driver' => $this->input->post('driver', TRUE),
             'image' => $image,
             'user_status' => $this->input->post('user_status', TRUE),
+            'rate'=>'{"1":"0","2":"0","3":"0","4":"0"}'
         );
 
         $this->Shipper_detail_model->save_shippers($authdata, $shipperdata);
@@ -173,9 +185,6 @@ public function do_upload()
 
     public function update_shipper()
     {
-
-       
-
         $image = $this->do_upload();
 
         $authdata = array(
@@ -200,7 +209,7 @@ public function do_upload()
             'employee' => $this->input->post('employee', TRUE),
             'driver' => $this->input->post('driver', TRUE),
             'image' => $image,
-            'user_status' => $this->input->post('user_status', TRUE), 
+            'user_status' => $this->input->post('user_status', TRUE),
         );
 
 
@@ -209,7 +218,8 @@ public function do_upload()
         redirect('admin/shipper_detail');
     }
 
-    public function delete($id){
+    public function delete($id)
+    {
 
         $this->Shipper_detail_model->delete_shipper_detail($id);
 

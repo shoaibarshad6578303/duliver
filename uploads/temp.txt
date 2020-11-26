@@ -1,1 +1,7 @@
-abbbbdjjjdjdj
+1- Upload file with Ajax in (uploading orders by files)
+2- Read csv file and display in html Table.
+3- Merged code with Ahmed Bahi manully.
+4- Save record on save in Database (pending).
+
+
+

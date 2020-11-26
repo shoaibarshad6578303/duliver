@@ -27,7 +27,7 @@ class Authentication_model extends App_Model
                 $table = db_prefix() . 'staff';
                 $_id   = 'staffid';
             }
-            $this->db->where('email', $email);
+            $this->db->where('user_name', $email);
             $user = $this->db->get($table)->row();
             if ($user) {
                 // Email is okey lets check the password now
@@ -45,7 +45,7 @@ class Authentication_model extends App_Model
             } else {
 
                 hooks()->do_action('non_existent_user_login_attempt', [
-                        'email'           => $email,
+                        'user_name'           => $email,
                         'is_staff_member' => $staff,
                 ]);
 
@@ -72,7 +72,7 @@ class Authentication_model extends App_Model
 
                 if (!$twoFactorAuth) {
                     hooks()->do_action('before_staff_login', [
-                        'email'  => $email,
+                        'user_name'  => $email,
                         'userid' => $user->$_id,
                     ]);
 
@@ -88,7 +88,7 @@ class Authentication_model extends App_Model
                 }
             } else {
                 hooks()->do_action('before_client_login', [
-                    'email'           => $email,
+                    'user_name'           => $email,
                     'userid'          => $user->userid,
                     'contact_user_id' => $user->$_id,
                 ]);

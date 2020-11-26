@@ -300,13 +300,71 @@ class Shipment_details extends AdminController {
 
         // print_r( $data['place_orders']['shipper_name'][0]);
         // exit;
+         
 
-        
 
         $view=$this->load->view('admin/shipment_details/uploading_shipment_table',$data,true);
         print_r($view);exit;
         // return json_encode($place_orders);
         // redirect('admin/shipment_details/update_status');
+    }
+
+    public function save_order_from_table(){
+
+        // $data=$this->input->post();
+      
+        $orderdata = [];
+        
+        // print_r(count($this->input->post('checkbox', TRUE)));
+        // exit;
+       
+        if(($this->input->post('checkbox', TRUE))){
+            $count=0;
+          for($i=0;$i< count($this->input->post('checkbox', TRUE)); $i++){
+               
+            $checkboxIndex=$this->input->post('checkbox['.$i.']', TRUE);
+            // print_r($checkboxIndex);exit;
+        
+            $orderdata[$count]= array(
+                // 'shipper_ref' => $this->input->post('shipper_ref', TRUE),
+                // 'reference_number' => $this->input->post('reference_number', TRUE),
+                // 'order_date' => $this->input->post('order_date', TRUE),
+                // 'service_type' => $this->input->post('service_type', TRUE),
+                'shipper_code' => $this->input->post('shipperCode_form', TRUE),
+                'shipper_name' => $this->input->post('shipper_name['. $checkboxIndex. ']', TRUE),
+                'shipper_phone' => $this->input->post('shipper_phone['. $checkboxIndex. ']', TRUE),
+                // 'package_type' => $this->input->post('package_type', TRUE),
+                'reciever_name' => $this->input->post('reciever_name['. $checkboxIndex. ']', TRUE),
+                // 'mobile_1' => $this->input->post('mobile_1', TRUE),
+                // 'mobile_2' => $this->input->post('mobile_2', TRUE),
+    
+                // 'cod' => $this->input->post('cod', TRUE),
+                'instruction' => $this->input->post('instruction['. $checkboxIndex. ']', TRUE),
+                'description' => $this->input->post('description['. $checkboxIndex. ']', TRUE),
+                // 'country_id' => $this->input->post('country_id', TRUE),
+                // 'city' => $this->input->post('city', TRUE),
+                // 'area' => $this->input->post('area', TRUE),
+    
+                // 'street' => $this->input->post('street', TRUE),
+                'no_of_piece' => $this->input->post('no_of_piece['. $checkboxIndex. ']', TRUE),
+                // 'cod_status' => $this->input->post('cod_status', TRUE),
+                'cod_amount' => $this->input->post('cod_amount['. $checkboxIndex. ']', TRUE),
+                'tracking_number' => '',
+    
+            );
+            $count++;
+          }
+         
+          $this->shipment_details_model->save_orders_array($orderdata);
+
+          return;
+        
+        //   redirect('admin/shipment_details/place_order');
+
+        }
+
+      
+        
     }
 
    

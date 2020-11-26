@@ -558,12 +558,12 @@ height: 200px;
       let cities = JSON.parse(country);
 
 
-      $(cities[$(this).val()]['cities'])
-         .find('option')
-         .remove()
-         .end()
-         .append('<option value="whatever">text</option>')
-         .val('whatever');
+      // $(cities[$(this).val()]['cities'])
+      //    .find('option')
+      //    .remove()
+      //    .end()
+      //    .append('<option value="whatever">text</option>')
+      //    .val('whatever');
 
 
       $.each(cities[$(this).val()]['cities'], function(index, item) {
@@ -574,7 +574,7 @@ height: 200px;
 
       });
 
-      
+
 
    });
 

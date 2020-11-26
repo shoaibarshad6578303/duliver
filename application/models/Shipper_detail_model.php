@@ -113,6 +113,42 @@ public function get_generated_id()
         return;
     }
 
+
+    public function update_one_city_value($rate){
+      
+        $id=$rate['id'];
+        $this->db->where('id',   $id);
+        $result=$this->db->get(db_prefix() . 'shipper_detail');
+        
+      $city=$rate['city'];
+      $value=$rate['value'];
+
+        $data=$result->result_array();
+        
+        $rates_data = $data[0]['rate'];
+        $rates = json_decode($rates_data);
+        foreach($rates as $key => $rate):
+            $rates_array[$key] = $rate;
+        endforeach;
+
+        
+       
+        $rates_array[$city] =$value;
+        
+        $set_rate=array(
+            'rate' => json_encode($rates_array),
+        );
+
+        //  print_r($set_rate);exit;
+        
+        $this->db->where('id',   $id);
+        $result=$this->db->update(db_prefix() . 'shipper_detail', $set_rate);
+       
+        return;
+       
+
+    }
+
     
 
 
@@ -121,7 +157,6 @@ public function get_generated_id()
 
         $row = $this->db->select("rate")->where('id =',$id )->get(db_prefix() . 'shipper_detail');
         return $row->result_array();
-
 
     }
 

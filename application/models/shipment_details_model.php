@@ -107,4 +107,31 @@ class shipment_details_model extends App_Model
         return;
     }
 
+    public function save_orders_array( $orderdata)
+    {
+      
+
+
+        foreach($orderdata as $item){
+           
+            $result = $this->get_generated_id();
+
+            $id = (isset($result[0]['tracking_number'])) ? $result[0]['tracking_number'] : '';
+            if ($id != '') {
+                $memberid = $id;
+                $num = preg_replace('/\D/', '', $memberid);
+                $number=8;
+                $data['tracking_number'] = sprintf('%s', str_pad($num + 1, "6", "0", STR_PAD_LEFT));
+            } else {
+                $data['tracking_number'] = '8000001';
+            }
+
+            $item['tracking_number'] = $data['tracking_number'];
+
+            $this->db->insert(db_prefix() . 'shipment_detail_orders', $item);
+        }
+      
+        return;
+    }
+
 }

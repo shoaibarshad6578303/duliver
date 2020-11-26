@@ -23,6 +23,8 @@ class Authentication extends ClientsController
 
     public function login()
     {
+       
+
         if (is_client_logged_in()) {
             redirect(site_url());
         }
@@ -35,6 +37,10 @@ class Authentication extends ClientsController
             && get_option('recaptcha_site_key') != '') {
             $this->form_validation->set_rules('g-recaptcha-response', 'Captcha', 'callback_recaptcha');
         }
+
+        // echo "hello";
+        // exit;
+
         if ($this->form_validation->run() !== false) {
             $this->load->model('Authentication_model');
 
