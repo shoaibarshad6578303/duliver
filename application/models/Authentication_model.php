@@ -21,13 +21,32 @@ class Authentication_model extends App_Model
     public function login($email, $password, $remember, $staff)
     {
         if ((!empty($email)) and (!empty($password))) {
+
+
             $table = db_prefix() . 'contacts';
             $_id   = 'id';
+          
+
             if ($staff == true) {
                 $table = db_prefix() . 'staff';
                 $_id   = 'staffid';
+              
             }
-            $this->db->where('email', $email);
+
+            if( $table == db_prefix() . 'contacts'){
+                $this->db->where('user_name', $email);
+            }else{
+                $this->db->where('email', $email);
+            }
+            
+
+            // $table = db_prefix() . 'contacts';
+            // $_id   = 'id';
+            // if ($staff == true) {
+            //     $table = db_prefix() . 'staff';
+            //     $_id   = 'staffid';
+            // }
+            // $this->db->where('email', $email);
             $user = $this->db->get($table)->row();
             if ($user) {
                 // Email is okey lets check the password now

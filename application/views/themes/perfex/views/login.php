@@ -17,6 +17,7 @@
                <input type="text" autofocus="true" class="form-control" name="email" id="email">
                <?php echo form_error('email'); ?>
             </div>
+            
             <div class="form-group">
                <label for="password"><?php echo _l('clients_login_password'); ?></label>
                <input type="password" class="form-control" name="password" id="password">

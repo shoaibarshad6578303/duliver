@@ -45,7 +45,7 @@
                                                     Import
                                                 </button>
 
-                                                <a class="btn btn-link  btn-primary" style="cursor: pointer;" href="<?php echo base_url(); ?>assets/file/samplefile.xlsx" target="_blank" title="Download Sample CSV file." download>
+                                                <a class="btn btn-link  btn-primary" style="cursor: pointer;" href="<?php echo base_url(); ?>assets/file/abc.csv" target="_blank" title="Download Sample CSV file." download>
                                                     <i class="fa fa-download"></i> Download Sample
                                                 </a>
 
@@ -415,7 +415,7 @@
                         <div class="col-md-6"> -->
                                                             <!-- <div > -->
 
-                                                            <input type="file" name="image">
+                                                            <input type="file" name="image" accept=".csv" >
                                                             <br>
                                                             <!-- </div>
                             </div> -->

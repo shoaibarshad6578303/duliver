@@ -1,4 +1,5 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed'); ?>
+
 <div class="row">
 	<div class="col-md-12">
 		<h3 id="greeting" class="no-mtop"></h3>
@@ -13,6 +14,7 @@
 			</div>
 		<?php } ?>
 		<div class="panel_s">
+		
 			<?php
 			if(has_contact_permission('invoices')){ ?>
 				<div class="panel-body">

@@ -20,7 +20,6 @@ class Clients extends ClientsController
 
     public function index()
     {
-        
 
         $data['is_home'] = true;
         $this->load->model('reports_model');

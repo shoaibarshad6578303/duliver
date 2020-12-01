@@ -41,20 +41,44 @@ function add_default_theme_menu_items()
                     'position' => 100,
                 ]);
     } else {
-        if (has_contact_permission('projects')) {
+
+        // add_theme_menu_item('projects', [
+        //     'name'     => _l('clients_nav_projects'),
+        //     'href'     => site_url('clients/projects'),
+        //     'position' => 10,
+        // ]);
+
+        add_theme_menu_item('place_orders', [
+            'name'     => _l('Place Order'),
+            'href'     => site_url('shippers/index'),
+            'position' => 64,
+        ]);
+        add_theme_menu_item('shipments', [
+            'name'     => _l('Shipments'),
+            'href'     => site_url('shippers/shipments'),
+            'position' => 65,
+        ]);
+
+        add_theme_menu_item('upload_orders', [
+            'name'     => _l('Upload Order'),
+            'href'     => site_url('shippers/upload_orders'),
+            'position' => 67,
+        ]);
+
+        // if (has_contact_permission('projects')) {
             add_theme_menu_item('projects', [
                     'name'     => _l('clients_nav_projects'),
                     'href'     => site_url('clients/projects'),
                     'position' => 10,
                 ]);
-        }
-        if (has_contact_permission('invoices')) {
+        // }
+        // if (has_contact_permission('invoices')) {
             add_theme_menu_item('invoices', [
                     'name'     => _l('clients_nav_invoices'),
                     'href'     => site_url('clients/invoices'),
                     'position' => 15,
                 ]);
-        }
+        // }
         if (has_contact_permission('contracts')) {
             add_theme_menu_item('contracts', [
                     'name'     => _l('clients_nav_contracts'),

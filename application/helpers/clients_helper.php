@@ -8,6 +8,8 @@ defined('BASEPATH') or exit('No direct script access allowed');
  * @param  mixed  $id contact id
  * @return boolean
  */
+
+ 
 function is_contact_email_verified($id = null)
 {
     $id = !$id ? get_contact_user_id() : $id;

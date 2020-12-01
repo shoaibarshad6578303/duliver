@@ -2,6 +2,8 @@
 <?php init_head(); ?>
 <script type="text/javascript">
    var country = '<?= json_encode($countries) ?>';
+
+ 
 </script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src = "https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
@@ -13,9 +15,7 @@
 };
    </script> -->
 
-<script type="text/javascript">
-   var country = '<?= json_encode($countries) ?>';
-</script>
+
 
 
 <div id="wrapper" class="customer_profile">
@@ -291,14 +291,27 @@ height: 200px;
                                  <label for="city">City </label>
                                  <div>
                                     <select name="city" id="city" class="form-control" required>
+                                       
                                        <option <?= (!isset($client)) ? 'selected' : '' ?> disabled>Select City</option>
 
+                                       <!-- <option <?= (isset($client)) ? 'selected' : '' ?> disabled>Select City</option> -->
 
                                     </select>
                                  </div>
                               </div>
                            </div>
 
+                           
+                           <div class="col-md-3">
+                              <div class="form-group">
+                                 <label for="area">Area </label>
+                                 <div>
+                                    <select name="area" id="area" class="form-control" required>
+                                       <option <?= (!isset($client)) ? 'selected' : '' ?> disabled>Select Area</option>
+                                    </select>
+                                 </div>
+                              </div>
+                           </div>
 
                            <div class="col-md-3">
                               <div class="form-group">
@@ -553,39 +566,55 @@ height: 200px;
 
    // starting here
 
+
+
    $('#country_id').on('change', function() {
 
       let cities = JSON.parse(country);
 
+      $('#area').find('option').remove().end().append('<option value="" selected disabled>Select Area</option>').val('');
 
-      // $(cities[$(this).val()]['cities'])
-      //    .find('option')
-      //    .remove()
-      //    .end()
-      //    .append('<option value="whatever">text</option>')
-      //    .val('whatever');
+      $('#city').find('option').remove().end().append('<option value="" selected disabled>Select City</option>').val('');
 
 
-      $.each(cities[$(this).val()]['cities'], function(index, item) {
-
+      $.each(cities[$(this).val()]['#cities'], function(index, item) {
          let o = new Option(item['name'], index);
          $(o).html(item['name']);
          $('#city').append(o);
 
       });
 
+   });
 
+
+   $('#city').on('change', function() {
+
+      let cities = JSON.parse(country);
+
+      $('#area').find('option').remove().end().append('<option value="" selected disabled>Select Area</option>').val('');
+
+      $.each(cities[$('#country_id').val()]['cities'][$(this).val()]['areas'], function(index, item) {
+         let o = new Option(item, index);
+         $(o).html(item);
+         $('#area').append(o);
+
+      });
 
    });
 
+
    <?php
+
+   
 
    if (isset($client)) {
 
    ?>
 
+   // console.log("i am working here");
+
       var cities = JSON.parse(country);
-      $.each(cities[$('#country_id').val()]['cities'], function(index, item) {
+      $.each(cities[$('#country_id').val()]['#cities'], function(index, item) {
 
          let o = new Option(item['name'], index);
          $(o).html(item['name']);
@@ -594,14 +623,16 @@ height: 200px;
       });
 
       $('#city').val('<?= ($client['city']) ?>');
+      $('#area').val('<?= ($client['area']) ?>');
 
    <?php
 
    }
 
    ?>
+
 </script>
-<?php $this->load->view('admin/clients/client_js'); ?>
+          <?php $this->load->view('admin/clients/client_js'); ?>
 </body>
 
 </html>

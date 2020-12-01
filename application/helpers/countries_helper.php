@@ -10,39 +10,39 @@ function get_all_countries()
 {
     $countries = array(
 "1" => array(
+"name" => "United Arab Emirates",
+"cities" => array(
+"1" => array(
 "name" => "Dubai",
+"areas" => array(
+"1" => "Dubai Area ABC",
+"2" => "Dubai Area XYZ",
+),
+),
+"2" => array(
+"name" => "Abu Dubai",
+"areas" => array(
+"1" => "Abu Dubai Area ABC",
+"2" => "Abu Dubai Area XYZ",
+),
+),
+),
+),
+"2" => array(
+"name" => "Sudia Arabia",
 "cities" => array(
 "1" => array(
-"name" => "Dub ABC",
+"name" => "Jada",
 "areas" => array(
-"1" => "Area ABC",
-"2" => "Area XYZ",
+"1" => "Jada Area ABC",
+"2" => "Jada Area XYZ",
 ),
 ),
 "2" => array(
-"name" => "Dub XYZ",
+"name" => "Riaz",
 "areas" => array(
-"1" => "Area ABC",
-"2" => "Area XYZ",
-),
-),
-),
-),
-"2" => array(
-"name" => "Abu Dabhi",
-"cities" => array(
-"1" => array(
-"name" => "abu ABC",
-"areas" => array(
-"1" => "Area ABC",
-"2" => "Area XYZ",
-),
-),
-"2" => array(
-"name" => "Dub XYZ",
-"areas" => array(
-"1" => "Area ABC",
-"2" => "Area XYZ",
+"1" => "Riaz Area ABC",
+"2" => "Riaz Area XYZ",
 ),
 ),
 

@@ -74,6 +74,7 @@ class Employees extends AdminController
             'private_email' => $this->input->post('private_email', TRUE),
             'city' => $this->input->post('city', TRUE),
             'country_id' => $this->input->post('country_id', TRUE),
+            'area' => $this->input->post('area', TRUE),
             'zip' => $this->input->post('zip', TRUE),
             'address_line_1' => $this->input->post('address_line_1', TRUE),
             'address_line_2' => $this->input->post('address_line_2', TRUE),
@@ -86,6 +87,7 @@ class Employees extends AdminController
             'confirmation_date' => $this->input->post('confirmation_date', TRUE),
             'termination_date' => $this->input->post('termination_date', TRUE),
             'user_status' => $this->input->post('user_status', TRUE),
+            
             'image' => $image,
 
         );

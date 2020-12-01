@@ -1,6 +1,9 @@
 <?php defined('BASEPATH') or exit('No direct script access allowed');
+
    $totalQuickActionsRemoved = 0;
    $quickActions = $this->app->get_quick_actions_links();
+
+   
    
    foreach($quickActions as $key => $item){
     if(isset($item['permission'])){
