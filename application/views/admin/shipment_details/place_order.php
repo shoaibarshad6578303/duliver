@@ -6,21 +6,26 @@
    $e_data = array();
    $place_order_data = array();
 
+//    print_r($shippers);exit;
+
    foreach($shippers as $key => $shipper):
       $e_data[$shipper->shipper_code] = $shipper;
    endforeach; 
 
-//    print_r($client);exit;
+//    print_r($e_data);exit;
 
 //    foreach($place_orders as $key => $place_order):
-//     $place_order_data[$place_order->tracking_number] = $place_order;
+//    $place_order_data[$place_order->tracking_number] = $place_order;
 //    endforeach; 
 
 ?>
   
-//   var place_order = '<?=json_encode($place_order_data);?>';
+  
+   var place_order = '<?=json_encode($place_order_data);?>';
    var shippers = '<?=json_encode($e_data);?>';
 
+//   console.log(shippers);
+   
 </script>
 
 
@@ -506,17 +511,23 @@
        
     $(document).on('change','.select_shipper', function(){
       var id=$('.select_shipper').val();
+     console.log(shippers);
       let employee_array = JSON.parse(shippers);
-      var name= employee_array[id]['trade_name'];
-      var phone=employee_array[id]['contact_1'];
+    //   console.log("Hello");
+      var name = employee_array[id]['trade_name'];
+      var phone = employee_array[id]['contact_1'];
       $('.shipper_name').val(name);
       $('.shipper_phone').val(phone);
       $('.shipper_name_copy').val(name);
       $('.shipper_phone_copy').val(phone);
-     
-  
+    
+
      });
 
+
+
+
+    
     //  $(document).on('click','.search_orders', function(){
     //     var tracking_number=$('.search_orders_input').val();
     //     let place_array=JSON.parse(place_order_data);

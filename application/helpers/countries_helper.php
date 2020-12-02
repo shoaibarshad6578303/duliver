@@ -11,9 +11,11 @@ function get_all_countries()
     $countries = array(
 "1" => array(
 "name" => "United Arab Emirates",
+"slug" => "UAE",
 "cities" => array(
 "1" => array(
 "name" => "Dubai",
+"slug"=> "DU", 
 "areas" => array(
 "1" => "Dubai Area ABC",
 "2" => "Dubai Area XYZ",

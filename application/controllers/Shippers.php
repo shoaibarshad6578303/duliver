@@ -33,7 +33,7 @@ class Shippers extends ClientsController
         
         $data['countries'] = get_all_countries();
 
-        // print_r( $data['countries']);exit;
+        // print_r( get_all_countries());exit;
 
         $this->data($data);
         $this->view('shippers/home');

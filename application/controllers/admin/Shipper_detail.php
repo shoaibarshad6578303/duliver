@@ -3,18 +3,14 @@
 class Shipper_detail extends AdminController
 {
 
-
-
     public function __construct()
     {
         parent::__construct();
-
         $this->load->model('Shipper_detail_model');
     }
 
     public function index()
     {
-
         $shipper_detail = $this->Shipper_detail_model->get_all_entries();
         $data = array();
         $data['shipper_detail'] = $shipper_detail;

@@ -19,17 +19,16 @@ class shipment_details_model extends App_Model
 
     public function getShippers()
     {
-        $row = $this->db->select("*")->where('shipper_code !=', '')->where('deleted =',1)->order_by('id', "ASC")->get(db_prefix() . 'shipper_detail');
+        $row = $this->db->select("id,trade_name, shipper_code, contact_1")->where('shipper_code !=', '')->where('deleted =',1)->order_by('id', "ASC")->get(db_prefix() . 'shipper_detail');
         return $row->result();
     }
 
-
     public function save_orders( $orderdata)
     {
-
         $this->db->insert(db_prefix() . 'shipment_detail_orders', $orderdata);
         return;
     }
+      
 
     public function getOrders($id){
         // $row=$this->db->get(db_prefix() . 'shipment_detail_orders');
@@ -58,6 +57,8 @@ class shipment_details_model extends App_Model
         return $query->result_array();
     }
 
+
+
     // public function all_orders(){
 
     //     $this->db->select('*')->from(db_prefix() . 'shipment_detail_orders');
@@ -67,13 +68,12 @@ class shipment_details_model extends App_Model
     // }
 
 
-
     public function update_orders($orderdata)
     {
         $id = $orderdata['id'];
         $this->db->where('id', $id);
         $this->db->update(db_prefix() . 'shipment_detail_orders', $orderdata);
-       
+         
         return;
     }
 

@@ -3,7 +3,6 @@
 <script type="text/javascript">
    var country = '<?= json_encode($countries) ?>';
 
- 
 </script>
 <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src = "https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.min.js"></script>
@@ -309,6 +308,8 @@ height: 200px;
                                     <select name="area" id="area" class="form-control" required>
                                        <option <?= (!isset($client)) ? 'selected' : '' ?> disabled>Select Area</option>
                                     </select>
+                                 
+
                                  </div>
                               </div>
                            </div>

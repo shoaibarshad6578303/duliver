@@ -40,7 +40,7 @@ class Shipment_details extends AdminController {
 
         $data['countries'] = get_all_countries();
 
-       
+    //    print_r( $data['shippers']);exit;
 
         $this->load->view('admin/shipment_details/place_order', $data);
     }

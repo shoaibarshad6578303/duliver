@@ -1676,3 +1676,177 @@ ERROR - 2020-12-01 17:20:36 --> Severity: Notice --> Undefined variable: current
 ERROR - 2020-12-01 17:20:36 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
 ERROR - 2020-12-01 17:20:37 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
 ERROR - 2020-12-01 17:20:37 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 17:50:12 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 17:50:12 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 17:50:12 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 17:50:12 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 17:50:12 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 17:50:12 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 17:50:12 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 17:57:09 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 17:57:09 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 17:57:09 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 17:57:09 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 17:57:09 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 17:57:09 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 17:57:09 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:00:13 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 18:00:13 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 18:00:13 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 18:00:13 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:00:13 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:00:13 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:00:13 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:03:33 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 18:03:33 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 18:03:33 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 18:03:33 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:03:33 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:03:33 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:03:33 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:06:34 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 18:06:34 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 18:06:34 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 18:06:34 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:06:34 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:06:34 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:06:34 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:08:50 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 18:08:50 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 18:08:50 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 18:08:50 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:08:50 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:08:50 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:08:50 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:11:01 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 18:11:01 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 18:11:01 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 18:11:02 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:11:02 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:11:02 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:11:02 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:14:22 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 18:14:22 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 18:14:22 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 18:14:22 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:14:22 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:14:22 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:14:22 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:15:52 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 18:15:52 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 18:15:52 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 18:15:52 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:15:52 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:15:52 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:15:52 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:23:00 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 18:23:00 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 18:23:00 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 18:23:01 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:23:01 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:23:01 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:23:01 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:31:15 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 18:31:15 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 18:31:15 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 18:31:15 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:31:15 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:31:15 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:31:15 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:32:29 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 18:32:29 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 18:32:29 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 18:32:29 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:32:29 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:32:29 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:32:29 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:39:18 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 18:39:18 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 18:39:18 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 18:39:18 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:39:18 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:39:18 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:39:18 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:39:48 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 18:39:48 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 18:39:48 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 18:39:48 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:39:48 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:39:48 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:39:48 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:42:10 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 18:42:10 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 18:42:10 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 18:42:10 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:42:10 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 18:42:10 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 18:42:10 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 19:06:27 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 19:06:27 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 19:06:27 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 19:06:27 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:06:27 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:06:27 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 19:06:27 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 19:10:35 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 19:10:35 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 19:10:35 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 19:10:35 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:10:35 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:10:35 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 19:10:35 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 19:13:09 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 19:13:09 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 19:13:09 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 19:13:09 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:13:09 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:13:09 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 19:13:09 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 15:33:29 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\xampp\htdocs\duliver\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2020-12-01 15:33:31 --> Unable to connect to the database
+ERROR - 2020-12-01 15:33:43 --> Severity: Warning --> mysqli::real_connect(): (HY000/2002): No connection could be made because the target machine actively refused it.
+ C:\xampp\htdocs\duliver\system\database\drivers\mysqli\mysqli_driver.php 203
+ERROR - 2020-12-01 15:33:44 --> Unable to connect to the database
+ERROR - 2020-12-01 19:46:04 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 19:46:05 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 19:46:05 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 19:46:11 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:46:11 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:46:11 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 19:46:11 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 19:54:42 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 19:54:42 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 19:54:43 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 19:54:44 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:54:44 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:54:44 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 19:54:44 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 19:56:15 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 19:56:15 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 19:56:15 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 19:56:15 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:56:15 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:56:15 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 19:56:15 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 19:57:08 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 19:57:08 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 19:57:08 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 19:57:08 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:57:08 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 19:57:08 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 19:57:08 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 20:00:20 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 20:00:20 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 20:00:20 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 20:00:20 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 20:00:20 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 20:00:20 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 20:00:20 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 20:00:39 --> Could not find the language line "Place Order"
+ERROR - 2020-12-01 20:00:39 --> Could not find the language line "Shipments"
+ERROR - 2020-12-01 20:00:39 --> Could not find the language line "Upload Order"
+ERROR - 2020-12-01 20:00:39 --> Severity: Notice --> Undefined variable: current_user C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 20:00:39 --> Severity: Notice --> Trying to get property 'firstname' of non-object C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 33
+ERROR - 2020-12-01 20:00:39 --> Severity: Notice --> Undefined variable: sidebar_menu C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
+ERROR - 2020-12-01 20:00:39 --> Severity: Warning --> Invalid argument supplied for foreach() C:\xampp\htdocs\duliver\application\views\themes\perfex\index.php 96
